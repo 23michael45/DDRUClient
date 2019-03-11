@@ -410,12 +410,6 @@ public class MessageSerializer
     int count = 0;
     public void Update()
     {
-        count++;
-
-        if(count % 10 != 0)
-        {
-            return;
-        }
 
         if(m_StateMachine != null)
         {
