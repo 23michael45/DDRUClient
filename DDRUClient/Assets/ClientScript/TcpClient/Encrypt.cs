@@ -42,16 +42,14 @@ namespace DDRCommLib
             byte[] pTxt = (byte[])pSrc;
             byte[] pCode = (byte[])pTar;
 
-            int ms = 0;
             int aa = 0;
             int bb = 0;
             int cc = 0;
             //SYSTEMTIME st;
             //::GetSystemTime(&st);
             //ms = st.wMilliseconds;
-            ms = DateTime.Now.Millisecond % 1000;
+            int ms = DateTime.Now.Millisecond % 1000;
 
-            ms = 0;
             aa = 0;
             bb = nPrimes - 1;
 
@@ -147,8 +145,7 @@ namespace DDRCommLib
             byte[] pTxt1 = (byte[])pSrc1;
             byte[] pTxt2 = (byte[])pSrc2;
             byte[] pCode = (byte[])pTar;
-
-            int ms = 0;
+            
             int aa = 0;
             int bb = 0;
             int cc = 0;
