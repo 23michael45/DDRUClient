@@ -156,7 +156,7 @@ public class ISMStateContainer<T>
         }
         catch (System.Exception ex)
         {
-        	
+            Debug.LogError(ex.Message);
         }
 
         return null;

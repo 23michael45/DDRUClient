@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: BldRoads_Dirt
+  m_Shader: {fileID: 4800000, guid: 2cf8e0eca9233644a8f5779c01169380, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: a0acc1876c9c29345ad6734c0f5ae935, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: 2059c10dda64ce64c967593d4dad5ac7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 1, y: 0}
+    - _DetailBump:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormal:
+        m_Texture: {fileID: 2800000, guid: 01243349d78011c409d2b77bbbd0714d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DirtMask:
+        m_Texture: {fileID: 2800000, guid: c9f09e763f1523243882154f84e41df7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DirtTex:
+        m_Texture: {fileID: 2800000, guid: c9f09e763f1523243882154f84e41df7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Dummy:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Illum:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 5465e40cd376a524cacbe57a1d499b13, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Overlay:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefCube:
+        m_Texture: {fileID: 8900000, guid: 2059c10dda64ce64c967593d4dad5ac7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpMask:
+        m_Texture: {fileID: 2800000, guid: b791f10ec63b2f1419cfb74234591a20, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpTexture:
+        m_Texture: {fileID: 2800000, guid: d29a07d7ed5a3c84c8a4b3588e1c5608, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _z_LmUv:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _z_lmUV:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.5
+    - _DetailTile: 30
+    - _DirtFade: 0.30769232
+    - _DirtIntensity: 0.3846154
+    - _DirtTile: 2
+    - _EmissionLM: 0
+    - _FogMaxHeight: 0
+    - _FogMinHeight: 0
+    - _LMIntensity: 0.6
+    - _LMNormal: 1
+    - _RefIntensity: 1
+    - _RimIntensity: 6
+    - _RimOffset: 1
+    - _RimPower: 2
+    - _RimWidth: 3
+    - _Shininess: 0.16164221
+    - _SpIntensity: 4
+    - _SpPower: 100
+    - _SpecPower: 49.552246
+    - _fogDensity: 1
+    - _fogEnd: 250
+    - _fogStart: 0
+    - _popNormals: 0.2
+    - _refIntensity: 0.77611935
+    - _refcoordensity: 2.2089553
+    - _refuvensity: 2
+    m_Colors:
+    - _Color: {r: 0.9402985, g: 0.45611495, b: 0.45611495, a: 1}
+    - _DirtColor: {r: 0.16470589, g: 0.104451366, b: 0.054901958, a: 1}
+    - _Emission: {r: 1, g: 1, b: 1, a: 0}
+    - _FogColor: {r: 0.29211843, g: 0.4276772, b: 0.5686275, a: 1}
+    - _ReflectColor: {r: 1, g: 1, b: 1, a: 0.5}
+    - _RimColor: {r: 0.4330586, g: 0.60964614, b: 0.80597013, a: 1}
+    - _SelfIllum: {r: 1, g: 1, b: 1, a: 1}
+    - _SpColor: {r: 0.5540023, g: 0.70937526, b: 0.89411765, a: 1}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _fogColor: {r: 0.3509172, g: 0.28752017, b: 0.6431373, a: 1}

@@ -407,7 +407,7 @@ public class MessageSerializer
     }
 
 
-    int count = 0;
+
     public void Update()
     {
 
@@ -654,6 +654,7 @@ public class MessageSerializer
         }
         catch (Exception e)
         {
+            Debug.LogError(e.Message);
         }
         return null;
     }

@@ -26,7 +26,7 @@ public class WeightCalculator<T>
     #endregion
     public WeightCalculator()
     {
-        UnityEngine.Random.seed = (int)System.DateTime.Now.Ticks;
+        UnityEngine.Random.state = new UnityEngine.Random.State();
     }
 
     void ResetTotalW()

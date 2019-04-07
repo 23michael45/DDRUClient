@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Water
+  m_Shader: {fileID: 4800000, guid: ac5d84b06fc45904989b28cca168970d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 597f9e5d2f1929144bf9d2113dd64e38, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: cc2614df20fe0d74abd186fd2a03f384, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: e6dee2a43d1e32a4cb54a911f3a6919c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpTexture:
+        m_Texture: {fileID: 2800000, guid: 63874c619d1a80d4ba50571680d86a31, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Spec:
+        m_Texture: {fileID: 2800000, guid: 63874c619d1a80d4ba50571680d86a31, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpIntensity: 1
+    - _Fresnel: 1
+    - _Glossiness: 2.1641788
+    - _InvertValue: 0
+    - _Opacity: 0.44776127
+    - _RefIntensity: 1.8518519
+    - _ScrollSpeed: 0.35820895
+    - _SpecContrast: 2
+    - _SpecIntensity: 1.7164179
+    - _Transparency: 1.1044776
+    - _WavePower: 1.4029856
+    - _fogEnd: 400
+    - _fogStart: 20
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorTint: {r: 0.74509805, g: 0.7023594, b: 0.5727028, a: 1}
+    - _MainColor: {r: 0.35074627, g: 0.31551895, b: 0.3010136, a: 0}
+    - _ReflectColor: {r: 1, g: 1, b: 1, a: 0.5}
+    - _ReflectionTint: {r: 0.20392157, g: 0.1646609, b: 0.09116493, a: 1}
+    - _SpColor: {r: 0.25882354, g: 0.2304037, b: 0.2304037, a: 0}
+    - _fogColor: {r: 0.29211843, g: 0.4276772, b: 0.5686275, a: 1}

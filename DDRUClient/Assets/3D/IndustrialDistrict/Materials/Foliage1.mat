@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Foliage1
+  m_Shader: {fileID: 10606, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 1a2aa285f65564441972834a1f8981d1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LightMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 7102fe2e75033a147ac9cd32358d038a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowOffset:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TransMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TranslucencyMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AO: 4.7880597
+    - _BaseLight: 0.43955225
+    - _Cutoff: 0.59701496
+    - _EmiMult: 5
+    - _LMIntensity: 0.6923077
+    - _Occlusion: 8.9925375
+    - _RimIntensity: 5
+    - _RimOffset: 1
+    - _RimPower: 4
+    - _SelfIllum: 0.2
+    - _ShadowStrength: 1
+    - _Shininess: 0.13023144
+    - _SpIntensity: 0.8
+    - _SpPower: 40
+    - _SquashAmount: 1
+    - _TranslucencyViewDependency: 0.71492535
+    - _fogEnd: 250
+    - _fogStart: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmiTint: {r: 0, g: 0, b: 0, a: 0}
+    - _EmisColor: {r: 0.92537314, g: 0.92537314, b: 0.92537314, a: 0}
+    - _Emission: {r: 0.06716418, g: 0.06716418, b: 0.06716418, a: 0}
+    - _RimColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Scale: {r: 1, g: 1, b: 1, a: 1}
+    - _ScatterColor: {r: 0.82089555, g: 0.55580306, b: 0.26342168, a: 1}
+    - _SelfIllum: {r: 0.002339053, g: 0.030531527, b: 0.04477614, a: 0.40392157}
+    - _SpColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 0.08543103, g: 0.17996134, b: 0.880597, a: 0}
+    - _TransColor: {r: 0.32941177, g: 0.41960785, b: 0.21960784, a: 0}
+    - _TranslucencyColor: {r: 0.73, g: 0.85, b: 0.41, a: 1}
+    - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
+    - _fogColor: {r: 0.24175318, g: 0.35393974, b: 0.47058824, a: 1}

@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Window_Opaque
+  m_Shader: {fileID: 4800000, guid: a2ef818047929f54f9f8fda47f10abdf, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 825489c34a59ea24d96a73ad184c1550, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: 44bbbcfe6f5c74e48a6e396260c7c07b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmiMask:
+        m_Texture: {fileID: 2800000, guid: 04dcf94b5693c2746ad444b8559c44a8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: b073a04001aaee145b88f4f7b30e9481, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: fc7ef859e5744d04ebc70389e6e7e367, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefCube:
+        m_Texture: {fileID: 8900000, guid: 44bbbcfe6f5c74e48a6e396260c7c07b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpTexture:
+        m_Texture: {fileID: 2800000, guid: 795f666f3d2ebd7438a387832796e265, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecMask:
+        m_Texture: {fileID: 2800000, guid: f1871a57ddc5d6a4ea780dd763905a80, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _EmiMult: 1.1940299
+    - _Fresnel: 0
+    - _Glossiness: 40
+    - _InvertValue: 0
+    - _LMIntensity: 0.5074627
+    - _Opacity: 1
+    - _RefIntensity: 2.9850745
+    - _RimIntensity: 5
+    - _RimWidth: 3
+    - _ScrollSpeed: 0.5
+    - _Shininess: 0.7
+    - _ShitValue: 0.9701492
+    - _SpecContrast: 1
+    - _SpecIntensity: 1.4626867
+    - _Transparency: 0.477612
+    - _fogEnd: 250
+    - _fogStart: 20
+    - _lerpValue: 0
+    - _refIntensity: 0.955224
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmiTint: {r: 1, g: 0.5116279, b: 0, a: 0}
+    - _EmissionTint: {r: 0.7490196, g: 0.8420403, b: 1, a: 0}
+    - _ReflectColor: {r: 1, g: 1, b: 1, a: 0.5019608}
+    - _RimColor: {r: 0.37313432, g: 0.78958344, b: 1, a: 0}
+    - _SkyColor: {r: 0.23529412, g: 0.4392157, b: 0.5803922, a: 0}
+    - _SpColor: {r: 1, g: 1, b: 1, a: 0}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _fogColor: {r: 0.24175318, g: 0.35393974, b: 0.47058824, a: 1}
+    - _secondCOlor: {r: 0, g: 0, b: 0, a: 0}
+    - _secondCol: {r: 0.42537314, g: 0.3530939, b: 0.19046557, a: 0}

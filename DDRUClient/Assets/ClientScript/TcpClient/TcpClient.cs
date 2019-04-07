@@ -11,9 +11,14 @@ using UnityEngine;
 public class AsyncTcpClient : BaseSocketConnection
 {
     
-    public AsyncTcpClient()
+    public AsyncTcpClient(BaseMessageDispatcher dispatcher = null)
     {
-        m_MessageSerializer = new MessageSerializer(this, new ClientMessageDispatcher());
+        if(dispatcher == null)
+        {
+            dispatcher = new ClientMessageDispatcher();
+        }
+
+        m_MessageSerializer = new MessageSerializer(this, dispatcher);
 
         OnDataReceived += ReadData;
     }
@@ -119,9 +124,13 @@ public class AsyncTcpClient : BaseSocketConnection
         catch (IOException ex)
         {
             if (ex.InnerException != null && ex.InnerException is ObjectDisposedException) // for SSL streams
-                ; // ignore
+            {
+
+            }
             else if (this.OnDisconnected != null)
+            {
                 this.OnDisconnected(this, null);
+            }
         }
     }
 
@@ -139,9 +148,13 @@ public class AsyncTcpClient : BaseSocketConnection
         catch (IOException ex)
         {
             if (ex.InnerException != null && ex.InnerException is ObjectDisposedException) // for SSL streams
-                ; // ignore
+            {
+
+            }
             else if (this.OnDisconnected != null)
+            {
                 this.OnDisconnected(this, null);
+            }
         }
     }
 
@@ -182,7 +195,7 @@ public class AsyncTcpClient : BaseSocketConnection
     {
         try
         {
-            if(tcpClient == null)
+            if (tcpClient == null)
             {
                 return;
             }
@@ -199,7 +212,7 @@ public class AsyncTcpClient : BaseSocketConnection
                     this.BufferSize = Math.Min(this.BufferSize * 10, this.maxBufferSize);
                 else
                 {
-                reduceBufferSize:
+                    reduceBufferSize:
                     int reducedBufferSize = Math.Max(this.BufferSize / 10, this.minBufferSize);
                     if (bytesRead < reducedBufferSize)
                     {
@@ -238,9 +251,14 @@ public class AsyncTcpClient : BaseSocketConnection
         catch (IOException ex)
         {
             if (ex.InnerException != null && ex.InnerException is ObjectDisposedException) // for SSL streams
-                ; // ignore
+            {
+
+            }
+
             else if (this.OnDisconnected != null)
+            {
                 this.OnDisconnected(this, null);
+            }
         }
     }
     public void Dispose()

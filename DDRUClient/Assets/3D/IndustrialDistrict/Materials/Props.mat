@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Props
+  m_Shader: {fileID: 4800000, guid: 2cf8e0eca9233644a8f5779c01169380, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: d971f4f7aa8506048918e8755eee72f8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: cc2614df20fe0d74abd186fd2a03f384, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailBump:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormal:
+        m_Texture: {fileID: 2800000, guid: 01243349d78011c409d2b77bbbd0714d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DirtMask:
+        m_Texture: {fileID: 2800000, guid: c9f09e763f1523243882154f84e41df7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DirtTex:
+        m_Texture: {fileID: 2800000, guid: c9f09e763f1523243882154f84e41df7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1550688f7aba516499f6d8387bdc74e3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Overlay:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefCube:
+        m_Texture: {fileID: 8900000, guid: cc2614df20fe0d74abd186fd2a03f384, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpMask:
+        m_Texture: {fileID: 2800000, guid: aad48f08b31e0ec448aa85a554984aa1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpTexture:
+        m_Texture: {fileID: 2800000, guid: cef1f2b5ee1d1d540bb41f9120979bdc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _z_LmUv:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _z_lmUV:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.5
+    - _DetailTile: 50
+    - _DirtFade: 0.4977038
+    - _DirtTile: 4
+    - _Fresnel: 0
+    - _Glossiness: 7.985075
+    - _InvertValue: 0
+    - _LMIntensity: 0.6
+    - _LMNormal: 1
+    - _RefIntensity: 5
+    - _RimIntensity: 30
+    - _RimOffset: 0.30884042
+    - _RimPower: 1
+    - _RimWidth: 2
+    - _Shininess: 0.012928434
+    - _SpIntensity: 5
+    - _SpPower: 20
+    - _SpecContrast: 1
+    - _SpecIntensity: 2.791045
+    - _SpecLift: 0.13432835
+    - _SpecPower: 50
+    - _fogEnd: 250
+    - _fogStart: 0
+    - _refIntensity: 1.9104478
+    - _refcoordensity: 2
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DirtColor: {r: 0.14901961, g: 0.15294118, b: 0.14117648, a: 1}
+    - _Emission: {r: 0.98507464, g: 0.044107843, b: 0.044107843, a: 0}
+    - _ReflectColor: {r: 1, g: 1, b: 1, a: 0.5019608}
+    - _RimColor: {r: 0.24682814, g: 0.4199092, b: 0.5882353, a: 1}
+    - _SelfIllum: {r: 1, g: 1, b: 1, a: 1}
+    - _SpColor: {r: 0.6273741, g: 0.7535394, b: 0.78039217, a: 0}
+    - _SpecColor: {r: 0.57462686, g: 0.83293146, b: 1, a: 1}
+    - _fogColor: {r: 0.24175318, g: 0.35393974, b: 0.47058824, a: 1}

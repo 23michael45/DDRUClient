@@ -131,109 +131,109 @@ namespace DDRCommLib
         or (lenTar < len1 + len2 + 4).
         Otherwise fill the target buffer with encrypted bytes and return true.
         */
-        public static bool Txt_Encrypt2(byte[] pSrc1, int len1,
-                          byte[] pSrc2, int len2,
-                          byte[] pTar, int lenTar)
-        {
-            if (pSrc1 == null || len1 <= 0 || pSrc2 == null || len2 <= 0) { return false; }
-            if (pTar == null || lenTar < len1 + len2 + 4)
-            {
-                // one char index, two chars check
-                return false;
-            }
-            int lenTxt = len1 + len2;
-            byte[] pTxt1 = (byte[])pSrc1;
-            byte[] pTxt2 = (byte[])pSrc2;
-            byte[] pCode = (byte[])pTar;
+        //public static bool Txt_Encrypt2(byte[] pSrc1, int len1,
+        //                  byte[] pSrc2, int len2,
+        //                  byte[] pTar, int lenTar)
+        //{
+        //    if (pSrc1 == null || len1 <= 0 || pSrc2 == null || len2 <= 0) { return false; }
+        //    if (pTar == null || lenTar < len1 + len2 + 4)
+        //    {
+        //        // one char index, two chars check
+        //        return false;
+        //    }
+        //    int lenTxt = len1 + len2;
+        //    byte[] pTxt1 = (byte[])pSrc1;
+        //    byte[] pTxt2 = (byte[])pSrc2;
+        //    byte[] pCode = (byte[])pTar;
             
-            int aa = 0;
-            int bb = 0;
-            int cc = 0;
-            //SYSTEMTIME st;
-            //::GetSystemTime(&st);
-            //ms = st.wMilliseconds;
-            int ms = DateTime.Now.Millisecond % 1000;
-            aa = 0;
-            bb = nPrimes - 1;
+        //    int aa = 0;
+        //    int bb = 0;
+        //    int cc = 0;
+        //    //SYSTEMTIME st;
+        //    //::GetSystemTime(&st);
+        //    //ms = st.wMilliseconds;
+        //    int ms = DateTime.Now.Millisecond % 1000;
+        //    aa = 0;
+        //    bb = nPrimes - 1;
 
 
-            int pnCode = 0;
-            int pnTxt = 0;
-            while (bb > aa + 1)
-            {
-                if (ms == Primes[aa])
-                {
-                    cc = aa;
-                    bb = aa;
-                    break;
-                }
-                else if (ms == Primes[bb])
-                {
-                    cc = bb;
-                    aa = bb;
-                    break;
-                }
-                cc = (aa + bb) >> 1;
-                if (ms == Primes[cc])
-                {
-                    aa = bb = cc;
-                    break;
-                }
-                else if (ms > Primes[cc])
-                {
-                    aa = cc;
-                }
-                else
-                {
-                    bb = cc;
-                }
-            }
-            if (aa != bb)
-            {
-                if (ms - Primes[aa] > Primes[bb] - ms)
-                {
-                    cc = bb;
-                }
-                else
-                {
-                    cc = aa;
-                }
-            }
-            byte[] pTxt = pTxt1;
-            bb = 0;
-            for (aa = 0; aa < lenTxt; ++aa)
-            {
-                pCode[pnCode] = (byte)(((int)(pTxt[pnTxt]) + Primes[cc]) & 0xFF);
-                bb += (pCode[pnCode]) * (pCode[pnCode]);
-                pCode[pnCode] = (byte)((pCode[pnCode] + ((Primes[(cc + aa) % nPrimes] *
-                    Primes[(cc + aa) % nPrimes]) & 0xFF)) & 0xFF);
-                bb &= 0xFFFF;
-                ++pnCode;
-                ++pnTxt;
-                cc = (cc + 1) % nPrimes;
-                if (len1 - 1 == aa)
-                {
-                    pTxt = pTxt2;
-                }
-            }
+        //    int pnCode = 0;
+        //    int pnTxt = 0;
+        //    while (bb > aa + 1)
+        //    {
+        //        if (ms == Primes[aa])
+        //        {
+        //            cc = aa;
+        //            bb = aa;
+        //            break;
+        //        }
+        //        else if (ms == Primes[bb])
+        //        {
+        //            cc = bb;
+        //            aa = bb;
+        //            break;
+        //        }
+        //        cc = (aa + bb) >> 1;
+        //        if (ms == Primes[cc])
+        //        {
+        //            aa = bb = cc;
+        //            break;
+        //        }
+        //        else if (ms > Primes[cc])
+        //        {
+        //            aa = cc;
+        //        }
+        //        else
+        //        {
+        //            bb = cc;
+        //        }
+        //    }
+        //    if (aa != bb)
+        //    {
+        //        if (ms - Primes[aa] > Primes[bb] - ms)
+        //        {
+        //            cc = bb;
+        //        }
+        //        else
+        //        {
+        //            cc = aa;
+        //        }
+        //    }
+        //    byte[] pTxt = pTxt1;
+        //    bb = 0;
+        //    for (aa = 0; aa < lenTxt; ++aa)
+        //    {
+        //        pCode[pnCode] = (byte)(((int)(pTxt[pnTxt]) + Primes[cc]) & 0xFF);
+        //        bb += (pCode[pnCode]) * (pCode[pnCode]);
+        //        pCode[pnCode] = (byte)((pCode[pnCode] + ((Primes[(cc + aa) % nPrimes] *
+        //            Primes[(cc + aa) % nPrimes]) & 0xFF)) & 0xFF);
+        //        bb &= 0xFFFF;
+        //        ++pnCode;
+        //        ++pnTxt;
+        //        cc = (cc + 1) % nPrimes;
+        //        if (len1 - 1 == aa)
+        //        {
+        //            pTxt = pTxt2;
+        //        }
+        //    }
 
-            pCode[pnCode] = (byte)(ms & 0xff);
-            pCode[pnCode + 1] = (byte)((ms >> 8) & 0xff);
-            pnCode += 2;
+        //    pCode[pnCode] = (byte)(ms & 0xff);
+        //    pCode[pnCode + 1] = (byte)((ms >> 8) & 0xff);
+        //    pnCode += 2;
 
 
-            pCode[pnCode] = (byte)(bb & 0xff);
-            pCode[pnCode + 1] = (byte)((bb >> 8) & 0xff);
-            pnCode += 2;
-            for (aa += 4; aa < lenTar; ++aa) {
-                bb += (pCode[-4] * pCode[-4]);
-                bb &= 0xFFFF;
+        //    pCode[pnCode] = (byte)(bb & 0xff);
+        //    pCode[pnCode + 1] = (byte)((bb >> 8) & 0xff);
+        //    pnCode += 2;
+        //    for (aa += 4; aa < lenTar; ++aa) {
+        //        bb += (pCode[-4] * pCode[-4]);
+        //        bb &= 0xFFFF;
 
-                pCode[pnCode] = (byte)((bb >> 8) ^ (bb & 0xFF) ^ (Primes[(cc + aa) % nPrimes] & 0xFF));
-                ++pnCode;
-            }
-            return true;
-        }
+        //        pCode[pnCode] = (byte)((bb >> 8) ^ (bb & 0xFF) ^ (Primes[(cc + aa) % nPrimes] & 0xFF));
+        //        ++pnCode;
+        //    }
+        //    return true;
+        //}
         /*
         Decrypt bytes in [pSrc, pSrc + lenSrc) to [pTar, pTar + lenTar)
         Return false when !pSrc or !pTar or (lenTar <= lenSrc - 4) or DECRYPTION FAILED
@@ -243,7 +243,7 @@ namespace DDRCommLib
                          byte[] pTar, int lenTar)
         {
             int x = 0, aa = 0, bb = 0, cc = 0, c_ = 0;
-            byte[] p1;
+
             char val = (char)0;
             if (pSrc == null || lenSrc <= 0 || pTar == null || lenSrc < lenTar + 4)
             {
