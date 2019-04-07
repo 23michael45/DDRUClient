@@ -35,234 +35,192 @@ namespace DDRCommProto {
             "dHJEYXRhGAMgAygDEg4KBmZyb21JUBgEIAEoCSJMCghlRmxvd0RpchILCgdG",
             "b3J3YXJkEAASDAoIQmFja3dhcmQQARIRCg1SZWNvcmRJblF1ZXVlEAISEgoO",
             "UmV0dXJuUG9wUXVldWUQAyIdCglIZWFydEJlYXQSEAoId2hhdGV2ZXIYASAB",
-            "KAkiJQoTcmVxUmVtb3RlU2VydmVyTGlzdBIOCgZmcm9taXAYASABKAkijgEK",
-            "E3JzcFJlbW90ZVNlcnZlckxpc3QSPwoHc2VydmVycxgBIAMoCzIuLkREUkNv",
-            "bW1Qcm90by5yc3BSZW1vdGVTZXJ2ZXJMaXN0LlJlbW90ZVNlcnZlcho2CgxS",
-            "ZW1vdGVTZXJ2ZXISDAoEbmFtZRgBIAEoCRIKCgJpcBgCIAEoCRIMCgRwb3J0",
-            "GAMgASgFIioKDHJlcVJlZ2lzdGVMUxIMCgR1ZGlkGAEgASgJEgwKBG5hbWUY",
-            "AiABKAkiHQoMcnNwUmVnaXN0ZUxTEg0KBWVycm9yGAEgASgJIlkKDnJlcVJl",
-            "bW90ZUxvZ2luEiQKBHR5cGUYASABKA4yFi5ERFJDb21tUHJvdG8uZUNsdFR5",
-            "cGUSEAoIdXNlcm5hbWUYAiABKAkSDwoHdXNlcnB3ZBgDIAEoCSLDAgoOcnNw",
-            "UmVtb3RlTG9naW4SNQoGbHNsaXN0GAEgAygLMiUuRERSQ29tbVByb3RvLnJz",
-            "cFJlbW90ZUxvZ2luLkxTRW50aXR5EkEKB3JldGNvZGUYAiABKA4yMC5ERFJD",
-            "b21tUHJvdG8ucnNwUmVtb3RlTG9naW4uZVJlbW90ZUxvZ2luUmV0Q29kZRIo",
-            "Cgh5b3VyUm9sZRgDIAEoDjIWLkREUkNvbW1Qcm90by5lQ2x0VHlwZRomCghM",
-            "U0VudGl0eRIMCgR1ZGlkGAEgASgJEgwKBG5hbWUYAiABKAkiZQoTZVJlbW90",
-            "ZUxvZ2luUmV0Q29kZRILCgdzdWNjZXNzEAASDwoLc2VydmVyX2J1c3kQARIY",
-            "ChRzZXJ2ZXJfbGltaXRfcmVhY2hlZBACEhYKEmluY29ycmVjdF9wYXNzd29y",
-            "ZBADIhsKC3JlcVNlbGVjdExTEgwKBHVkaWQYASABKAkiHAoLcnNwU2VsZWN0",
-            "TFMSDQoFZXJyb3IYASABKAkiHQoNcmVxVW5zZWxlY3RMUxIMCgR1ZGlkGAEg",
-            "ASgJIh4KDXJzcFVuc2VsZWN0TFMSDQoFZXJyb3IYASABKAkilwIKCGJjTFNB",
-            "ZGRyEjIKB0xTSW5mb3MYASADKAsyIS5ERFJDb21tUHJvdG8uYmNMU0FkZHIu",
-            "U2VydmVySW5mbxp6CgpTZXJ2ZXJJbmZvEgwKBG5hbWUYASABKAkSMgoFc3R5",
-            "cGUYAiABKA4yIy5ERFJDb21tUHJvdG8uYmNMU0FkZHIuZVNlcnZpY2VUeXBl",
-            "EgsKA2lwcxgDIAMoCRIMCgRwb3J0GAQgASgFEg8KB3JvYm90aWQYBSABKAki",
-            "WwoMZVNlcnZpY2VUeXBlEg8KC0xvY2FsU2VydmVyEAASEAoMUmVtb3RlU2Vy",
-            "dmVyEAESFAoQUlRTUFN0cmVhbVNlcnZlchACEhIKDlRhbGtCYWNrU2VydmVy",
-            "EAMiUwoIcmVxTG9naW4SJAoEdHlwZRgBIAEoDjIWLkREUkNvbW1Qcm90by5l",
-            "Q2x0VHlwZRIQCgh1c2VybmFtZRgCIAEoCRIPCgd1c2VycHdkGAMgASgJIswB",
-            "Cghyc3BMb2dpbhI1CgdyZXRjb2RlGAEgASgOMiQuRERSQ29tbVByb3RvLnJz",
-            "cExvZ2luLmVMb2dpblJldENvZGUSKAoIeW91clJvbGUYAiABKA4yFi5ERFJD",
-            "b21tUHJvdG8uZUNsdFR5cGUiXwoNZUxvZ2luUmV0Q29kZRILCgdzdWNjZXNz",
-            "EAASDwoLc2VydmVyX2J1c3kQARIYChRzZXJ2ZXJfbGltaXRfcmVhY2hlZBAC",
-            "EhYKEmluY29ycmVjdF9wYXNzd29yZBADIjcKCnJlcUNtZE1vdmUSEgoKbGlu",
-            "ZV9zcGVlZBgBIAEoAhIVCg1hbmd1bGF1X3NwZWVkGAIgASgCIjUKCnJzcENt",
-            "ZE1vdmUSJwoEdHlwZRgBIAEoDjIZLkREUkNvbW1Qcm90by5lQ21kUnNwVHlw",
-            "ZSImChFyZXFDbWRDaGFuZ2VTcGVlZBIRCglhZGRfc3BlZWQYASABKAUiPAoR",
-            "cnNwQ21kQ2hhbmdlU3BlZWQSJwoEdHlwZRgBIAEoDjIZLkREUkNvbW1Qcm90",
-            "by5lQ21kUnNwVHlwZSIiChFyZXFDbWRQYXVzZVJlc3VtZRINCgVlcnJvchgB",
-            "IAEoCSI8ChFyc3BDbWRQYXVzZVJlc3VtZRInCgR0eXBlGAEgASgOMhkuRERS",
-            "Q29tbVByb3RvLmVDbWRSc3BUeXBlIkQKCXJlcUNtZElQQxInCgRtb2RlGAEg",
-            "ASgOMhkuRERSQ29tbVByb3RvLmVDbWRJUENNb2RlEg4KBnZhbHVlcxgCIAEo",
-            "BSJtCglyc3BDbWRJUEMSJwoEbW9kZRgBIAEoDjIZLkREUkNvbW1Qcm90by5l",
-            "Q21kSVBDTW9kZRInCgR0eXBlGAIgASgOMhkuRERSQ29tbVByb3RvLmVDbWRS",
-            "c3BUeXBlEg4KBnZhbHVlcxgDIAEoBSLuAQoLcmVxQ21kQXVkaW8SOwoGYXVk",
-            "aW9wGAEgASgOMisuRERSQ29tbVByb3RvLnJlcUNtZEF1ZGlvLmVBdWRpb09w",
-            "ZXJhdGlvbmFsEjIKBHR5cGUYAiABKA4yJC5ERFJDb21tUHJvdG8ucmVxQ21k",
-            "QXVkaW8uZUF1ZGlvTW9kZRIQCghBdWRpb3N0chgDIAEoDBINCgVsZXZlbBgE",
-            "IAEoBSIhCgplQXVkaW9Nb2RlEggKBGVUVFMQABIJCgVlRmlsZRABIioKEWVB",
-            "dWRpb09wZXJhdGlvbmFsEgoKBmVTdGFydBAAEgkKBWVTdG9wEAEiNgoLcnNw",
-            "Q21kQXVkaW8SJwoEdHlwZRgBIAEoDjIZLkREUkNvbW1Qcm90by5lQ21kUnNw",
-            "VHlwZSI0ChJyZXFDbWRVcGRhdGVDb25maWcSDAoEZGF0YRgBIAEoCRIQCghk",
-            "YXRhbmFtZRgCIAEoCSJPChJyc3BDbWRVcGRhdGVDb25maWcSJwoEdHlwZRgB",
-            "IAEoDjIZLkREUkNvbW1Qcm90by5lQ21kUnNwVHlwZRIQCghkYXRhbmFtZRgC",
-            "IAEoCSIkChNyZXFDbWRHZXRDb25maWdkYXRhEg0KBWVycm9yGAEgASgJIlIK",
-            "E3JzcENtZEdldENvbmZpZ2RhdGESJwoEdHlwZRgBIAEoDjIZLkREUkNvbW1Q",
-            "cm90by5lQ21kUnNwVHlwZRISCgpjb25maWdkYXRhGAIgAygFIl0KEXJlcUNt",
-            "ZFNldFdvcmtQYXRoEhIKCnJvdXRlX25hbWUYASABKAwSEQoJcGF0aF9uYW1l",
-            "GAIgASgJEg0KBXNwZWVkGAMgASgCEhIKCndhbGtfc3R5bGUYBCABKAkiPAoR",
-            "cnNwQ21kU2V0V29ya1BhdGgSJwoEdHlwZRgBIAEoDjIZLkREUkNvbW1Qcm90",
-            "by5lQ21kUnNwVHlwZSKbAQoOcmVxQ21kQXV0b0NoYXQSOAoEdHlwZRgBIAEo",
-            "DjIqLkREUkNvbW1Qcm90by5yZXFDbWRBdXRvQ2hhdC5lQXV0b0NoYXRUeXBl",
-            "Eg4KBmNvbW51bRgCIAEoBSI/Cg1lQXV0b0NoYXRUeXBlEhAKDGVTdGFydE9u",
-            "bGluZRAAEhEKDWVTdGFydE9mZmxpbmUQARIJCgVlU3RvcBACIjkKDnJzcENt",
-            "ZEF1dG9DaGF0EicKBHR5cGUYASABKA4yGS5ERFJDb21tUHJvdG8uZUNtZFJz",
-            "cFR5cGUijgEKE3JlcUNtZEdlbmVyYWxPY3RyZWUSEgoKcm91dGVfbmFtZRgB",
-            "IAEoDBI7CgR0eXBlGAIgASgOMi0uRERSQ29tbVByb3RvLnJlcUNtZEdlbmVy",
-            "YWxPY3RyZWUuZU9jdHJlZVR5cGUiJgoLZU9jdHJlZVR5cGUSCwoHZUNyZWF0",
-            "ZRAAEgoKBmVRdWVyeRABIsUBChNyc3BDbWRHZW5lcmFsT2N0cmVlEicKBHR5",
-            "cGUYASABKA4yGS5ERFJDb21tUHJvdG8uZUNtZFJzcFR5cGUSPwoFb3R5cGUY",
-            "AiABKA4yMC5ERFJDb21tUHJvdG8ucnNwQ21kR2VuZXJhbE9jdHJlZS5lUnNw",
-            "T2N0cmVlVHlwZSJECg5lUnNwT2N0cmVlVHlwZRISCg5lRmlsZU5vdEV4aXN0",
-            "cxAAEg8KC2VGaWxlRXhpc3RzEAESDQoJZUluQ3JlYXRlEAIiVwoVcmVxQ21k",
-            "U3RhcnRBY3Rpb25Nb2RlEioKBG1vZGUYASABKA4yHC5ERFJDb21tUHJvdG8u",
-            "ZUNtZEFjdGlvbk1vZGUSEgoKcm91dGVfbmFtZRgCIAEoDCJsChVyc3BDbWRT",
-            "dGFydEFjdGlvbk1vZGUSKgoEbW9kZRgBIAEoDjIcLkREUkNvbW1Qcm90by5l",
-            "Q21kQWN0aW9uTW9kZRInCgR0eXBlGAIgASgOMhkuRERSQ29tbVByb3RvLmVD",
-            "bWRSc3BUeXBlIiQKE3JlcUNtZEVuZEFjdGlvbk1vZGUSDQoFZXJyb3IYASAB",
-            "KAkihAEKE3JzcENtZEVuZEFjdGlvbk1vZGUSMAoKYWN0aW9ubW9kZRgBIAEo",
-            "DjIcLkREUkNvbW1Qcm90by5lQ21kQWN0aW9uTW9kZRInCgR0eXBlGAIgASgO",
-            "MhkuRERSQ29tbVByb3RvLmVDbWRSc3BUeXBlEhIKCnJvdXRlX25hbWUYAyAB",
-            "KAwiRAobcmVxQ21kRGVsZXRlQ3VyclJvdXRlT3JQYXRoEhIKCnJvdXRlX25h",
-            "bWUYASABKAwSEQoJcGF0aF9uYW1lGAIgASgMIkYKG3JzcENtZERlbGV0ZUN1",
-            "cnJSb3V0ZU9yUGF0aBInCgR0eXBlGAEgASgOMhkuRERSQ29tbVByb3RvLmVD",
-            "bWRSc3BUeXBlIioKGXJlcUNtZEdldEN1cnJSb3V0ZUFuZFBhdGgSDQoFZXJy",
-            "b3IYASABKAkiMgoJUm91dGVEYXRhEhIKCnJvdXRlX25hbWUYASABKAwSEQoJ",
-            "cGF0aF9uYW1lGAIgAygMInEKGXJzcENtZEdldEN1cnJSb3V0ZUFuZFBhdGgS",
-            "JwoEdHlwZRgBIAEoDjIZLkREUkNvbW1Qcm90by5lQ21kUnNwVHlwZRIrCgpy",
-            "b3V0ZV9kYXRhGAIgAygLMhcuRERSQ29tbVByb3RvLlJvdXRlRGF0YSLKAwoQ",
-            "bm90aWZ5QmFzZVN0YXR1cxIMCgRtb2RlGAEgASgFEg8KB3Nvbm1vZGUYAiAB",
-            "KAUSDAoEYmF0dBgDIAEoAhIMCgR0ZW1wGAQgASgCEgsKA2h1bRgFIAEoAhIM",
-            "CgRwbTI1GAYgASgCEhAKCHN0b3BzdGF0GAcgASgFEhAKCGZ1bmNzdGF0GAgg",
-            "ASgDEhEKCXZvaWNlbG9vcBgJIAEoBRIRCgljdXJycm91dGUYCiABKAwSEAoI",
-            "Y3VycnBhdGgYCyABKAkSEQoJY3VycnNwZWVkGAwgASgCEhUKDWN1cnJ3YWxr",
-            "c3R5bGUYDSABKAkSDAoEcG9zeBgOIAEoAhIMCgRwb3N5GA8gASgCEhQKDHBv",
-            "c2RpcmVjdGlvbhgQIAEoAhIUCgxwb3NsaW5lc3BlZWQYESABKAISFwoPcG9z",
-            "YW5ndWxhdXNwZWVkGBIgASgCEhEKCWxvbmdpdHVkZRgTIAEoARIQCghsYXRp",
-            "dHVkZRgUIAEoARIRCgl0aW1lc3RhbXAYFSABKAMSEwoLdGhlcm1hbG1heHgY",
-            "FiABKAUSEwoLdGhlcm1hbG1heHkYFyABKAUSFwoPdGhlcm1hbG1heHZhbHVl",
-            "GBggASgCIjwKBk9BSW5mbxISCgpzdGFydGFuZ2xlGAEgASgCEhAKCGVuZGFu",
-            "Z2xlGAIgASgCEgwKBGRpc3QYAyABKAIiWAoNbm90aWZ5T2JzRGF0YRIQCghn",
-            "cmVlZHJlZBgBIAEoBRIPCgdtYXhkaXN0GAIgASgCEiQKBm9hc3RhdBgDIAMo",
-            "CzIULkREUkNvbW1Qcm90by5PQUluZm8ilQEKD25vdGlmeUFsYXJtSW5mbxI2",
-            "CgR0eXBlGAEgASgOMiguRERSQ29tbVByb3RvLm5vdGlmeUFsYXJtSW5mby5l",
-            "QWxhcm1UeXBlEhQKDGFsYXJtY29udGVudBgCIAEoCSI0CgplQWxhcm1UeXBl",
-            "EhEKDWVUaGVybWFsQWxhcm0QABITCg9lT2JzU3RhdHVzQWxhcm0QASKAAQoS",
-            "bm90aWZ5QWxhcm1OZXdGYWNlEicKBHR5cGUYASABKA4yGS5ERFJDb21tUHJv",
-            "dG8uZVBlcnNvblR5cGUSDAoEbmFtZRgCIAEoCRINCgVzb2NyZRgDIAEoAhIQ",
-            "CghwcmV2dGltZRgEIAEoAxISCgpmYWNlZGVjb2RlGAUgAygFIogBCgxBbGFy",
-            "bUZpcmVQb3MSDAoEcG9zeBgBIAEoBRIMCgRwb3N5GAIgASgFEhAKCHBvc3dp",
-            "ZHRoGAMgASgFEhEKCXBvc2hlaWdodBgEIAEoBRIOCgZtYXh0ZW0YBSABKAUS",
-            "DgoGYXZndGVtGAYgASgFEhcKD2FsYXJtcG9pbnRjb3VudBgHIAEoBSI6Cg9u",
-            "b3RpZnlBbGFybUZpcmUSJwoDcG9zGAEgAygLMhouRERSQ29tbVByb3RvLkFs",
-            "YXJtRmlyZVBvcyKQAQoNY2hrRmlsZVN0YXR1cxIqCghmaWxlVHlwZRgBIAEo",
-            "DjIYLkREUkNvbW1Qcm90by5lRmlsZVR5cGVzEg8KB2ZpbGVmbXQYAiADKAwS",
-            "EgoKZXhpc3RmaWxlcxgDIAMoDBIuCg50YXJTZXJ2aWNlVHlwZRgEIAEoDjIW",
-            "LkREUkNvbW1Qcm90by5lQ2x0VHlwZSJRCg1hbnNGaWxlU3RhdHVzEioKCGZp",
-            "bGVUeXBlGAEgASgOMhguRERSQ29tbVByb3RvLmVGaWxlVHlwZXMSFAoMZmls",
-            "ZUFkZHJMaXN0GAIgAygMInkKEG5vdGlmeVVwbG9hZEZpbGUSEAoIaHR0cEFk",
-            "ZHIYASABKAkSDwoHZmlsZWZtdBgCIAMoDBISCgpleGlzdGZpbGVzGAMgAygM",
-            "Ei4KDnRhclNlcnZpY2VUeXBlGAQgASgOMhYuRERSQ29tbVByb3RvLmVDbHRU",
-            "eXBlIkMKGG5vdGlmeVVwbG9hZEZpbGVQcm9ncmVzcxIQCghwcm9ncmVzcxgB",
-            "IAEoAhIVCg11cGxvYWRlZGZpbGVzGAIgAygMIh4KCXJlcVN0YXR1cxIRCglz",
-            "dGF0dXNNc2cYASABKAkiHQoMcmVxRmFjZUFsYXJtEg0KBWVycm9yGAEgASgJ",
-            "IhwKC3JlcUhvdEFsYXJtEg0KBWVycm9yGAEgASgJIhwKC3JlcU9ic0FsYXJt",
-            "Eg0KBWVycm9yGAEgASgJIh8KC3JlcVRleHRDaGF0EhAKCGNoYXRUZXh0GAEg",
-            "ASgJIsEBChJBVlN0cmVhbVNyY0NoYW5uZWwSDwoHc3JjQWRkchgBIAEoCRIP",
-            "CgdzcmNQb3J0GAIgAygFEjMKCnN0cmVhbVR5cGUYAyABKA4yHy5ERFJDb21t",
-            "UHJvdG8uQ2hhbm5lbFN0cmVhbVR5cGUSNQoLbmV0d29ya1R5cGUYBCABKA4y",
-            "IC5ERFJDb21tUHJvdG8uQ2hhbm5lbE5ldHdvcmtUeXBlEgwKBHJhdGUYBSAB",
-            "KAUSDwoHc3JjbmFtZRgGIAEoDCJGCg1yZXFTdHJlYW1BZGRyEjUKC25ldHdv",
-            "cmtUeXBlGAEgASgOMiAuRERSQ29tbVByb3RvLkNoYW5uZWxOZXR3b3JrVHlw",
-            "ZSJSCg1yc3BTdHJlYW1BZGRyEjIKCGNoYW5uZWxzGAEgAygLMiAuRERSQ29t",
-            "bVByb3RvLkFWU3RyZWFtU3JjQ2hhbm5lbBINCgVlcnJvchgDIAEoCSK/AQoM",
-            "cmVxQXVkaW9UYWxrEjIKBm9wVHlwZRgBIAEoDjIiLkREUkNvbW1Qcm90by5y",
-            "ZXFBdWRpb1RhbGsuZU9wTW9kZRI0CgduZXRUeXBlGAIgASgOMiMuRERSQ29t",
-            "bVByb3RvLnJlcUF1ZGlvVGFsay5lTmV0VHlwZSIgCgdlT3BNb2RlEgoKBmVT",
-            "dGFydBAAEgkKBWVTdG9wEAEiIwoIZU5ldFR5cGUSCgoGZUxvY2FsEAASCwoH",
-            "ZVJlbW90ZRABIkgKDHJzcEF1ZGlvVGFsaxIpCgZzdGF0dXMYASABKA4yGS5E",
-            "RFJDb21tUHJvdG8uZVRhbGtTdGF0dXMSDQoFZXJyb3IYAiABKAkiVQoQbm90",
-            "aWZ5U3RyZWFtQWRkchIyCghjaGFubmVscxgBIAMoCzIgLkREUkNvbW1Qcm90",
-            "by5BVlN0cmVhbVNyY0NoYW5uZWwSDQoFZXJyb3IYAyABKAkiUgoLbm90aWZ5",
-            "QWxhcm0SJAoEZnJvbRgBIAEoDjIWLkREUkNvbW1Qcm90by5lQ2x0VHlwZRIO",
-            "CgZmcm9tSVAYAiABKAkSDQoFZXJyb3IYAyABKAkifwoOcmVxRmlsZUFkZHJl",
-            "c3MSLgoOdGFyU2VydmljZVR5cGUYASABKA4yFi5ERFJDb21tUHJvdG8uZUNs",
-            "dFR5cGUSKgoIZmlsZVR5cGUYAiABKA4yGC5ERFJDb21tUHJvdG8uZUZpbGVU",
-            "eXBlcxIRCglmaWxlTmFtZXMYAyADKAwikQEKDnJzcEZpbGVBZGRyZXNzEi4K",
-            "DnRhclNlcnZpY2VUeXBlGAEgASgOMhYuRERSQ29tbVByb3RvLmVDbHRUeXBl",
-            "EioKCGZpbGVUeXBlGAIgASgOMhguRERSQ29tbVByb3RvLmVGaWxlVHlwZXMS",
-            "FAoMZmlsZUFkZHJMaXN0GAMgAygMEg0KBWVycm9yGAQgASgJIoUBChRyZXFS",
-            "ZW1vdGVGaWxlQWRkcmVzcxIuCg50YXJTZXJ2aWNlVHlwZRgBIAEoDjIWLkRE",
-            "UkNvbW1Qcm90by5lQ2x0VHlwZRIqCghmaWxlVHlwZRgCIAEoDjIYLkREUkNv",
-            "bW1Qcm90by5lRmlsZVR5cGVzEhEKCWZpbGVOYW1lcxgDIAMoDCKXAQoUcnNw",
-            "UmVtb3RlRmlsZUFkZHJlc3MSLgoOdGFyU2VydmljZVR5cGUYASABKA4yFi5E",
-            "RFJDb21tUHJvdG8uZUNsdFR5cGUSKgoIZmlsZVR5cGUYAiABKA4yGC5ERFJD",
-            "b21tUHJvdG8uZUZpbGVUeXBlcxIUCgxmaWxlQWRkckxpc3QYAyADKAwSDQoF",
-            "ZXJyb3IYBCABKAkitgEKD0FWQ2hhbm5lbENvbmZpZxILCgNzcmMYASABKAkS",
-            "CwoDZHN0GAIgASgJEjMKCnN0cmVhbVR5cGUYAyABKA4yHy5ERFJDb21tUHJv",
-            "dG8uQ2hhbm5lbFN0cmVhbVR5cGUSNQoLbmV0d29ya1R5cGUYBCABKA4yIC5E",
-            "RFJDb21tUHJvdG8uQ2hhbm5lbE5ldHdvcmtUeXBlEgwKBHJhdGUYBSABKAUS",
-            "DwoHc3JjbmFtZRgGIAEoDCIkChRyZXFTdHJlYW1TZXJ2aWNlSW5mbxIMCgRu",
-            "YW1lGAEgASgJIlgKFHJzcFN0cmVhbVNlcnZpY2VJbmZvEg8KB3RjcFBvcnQY",
-            "ASABKAUSLwoIY2hhbm5lbHMYAiADKAsyHS5ERFJDb21tUHJvdG8uQVZDaGFu",
-            "bmVsQ29uZmlnIlEKHm5vdGlmeVN0cmVhbVNlcnZpY2VJbmZvQ2hhbmdlZBIv",
-            "CghjaGFubmVscxgBIAMoCzIdLkREUkNvbW1Qcm90by5BVkNoYW5uZWxDb25m",
-            "aWciSAoTcmVxU3RyZWFtUmVsYXlBbGFybRINCgVlcnJvchgBIAEoCRIiCgJ0",
-            "bxgCIAMoDjIWLkREUkNvbW1Qcm90by5lQ2x0VHlwZSIpChNUaGVybWFsU2Vy",
-            "dmVyQ29uZmlnEhIKCmFsYXJtX3RlbXAYASABKAIiJwoWcmVxQ21kR2V0VGhl",
-            "cm1hbFBhcmFtcxINCgVlcnJvchgBIAEoCSJTChZyc3BDbWRHZXRUaGVybWFs",
-            "UGFyYW1zEjkKDnRoZXJtYWxfY29uZmlnGAEgASgLMiEuRERSQ29tbVByb3Rv",
-            "LlRoZXJtYWxTZXJ2ZXJDb25maWciUwoWcmVxQ21kU2V0VGhlcm1hbFBhcmFt",
-            "cxI5Cg50aGVybWFsX2NvbmZpZxgBIAEoCzIhLkREUkNvbW1Qcm90by5UaGVy",
-            "bWFsU2VydmVyQ29uZmlnIkEKFnJzcENtZFNldFRoZXJtYWxQYXJhbXMSJwoE",
-            "dHlwZRgBIAEoDjIZLkREUkNvbW1Qcm90by5lQ21kUnNwVHlwZSJXCg1yZXFD",
-            "bWRBZGRGYWNlEgwKBG5hbWUYASABKAwSJwoEdHlwZRgCIAEoDjIZLkREUkNv",
-            "bW1Qcm90by5lUGVyc29uVHlwZRIPCgdwaWNkYXRhGAMgAygFIjgKDXJzcENt",
-            "ZEFkZEZhY2USJwoEdHlwZRgBIAEoDjIZLkREUkNvbW1Qcm90by5lQ21kUnNw",
-            "VHlwZSIoChdyZXFDbWRGYWNlRGF0YUJhc2VPcmRlchINCgVPcmRlchgBIAEo",
-            "CSJkChBGYWNlRGF0YUJhc2VEYXRhEgoKAmlkGAEgASgFEgwKBG5hbWUYAiAB",
-            "KAwSJwoEdHlwZRgDIAEoDjIZLkREUkNvbW1Qcm90by5lUGVyc29uVHlwZRIN",
-            "CgVsYWJlbBgEIAEoCSLIAQoXcnNwQ21kRmFjZURhdGFCYXNlT3JkZXISJwoE",
-            "dHlwZRgBIAEoDjIZLkREUkNvbW1Qcm90by5lQ21kUnNwVHlwZRIsCgRkYXRh",
-            "GAIgAygLMh4uRERSQ29tbVByb3RvLkZhY2VEYXRhQmFzZURhdGEiVgoQZVJz",
-            "cERhdGFCYXNlVHlwZRIKCgZlRXJyb3IQABIPCgtlUXVlcnlDb3VudBABEhIK",
-            "DmVEZWxldGVTdWNjZXNzEAISEQoNZURldGFpbGVkRGF0YRADIjwKEEZhY2VT",
-            "ZXJ2ZXJDb25maWcSEgoKQ29uZmlkZW5jZRgBIAEoAhIUCgxGYWNlX3F1YWxp",
-            "dHkYAiABKAIiJAoTcmVxQ21kR2V0RmFjZVBhcmFtcxINCgVlcnJvchgBIAEo",
-            "CSJKChNyc3BDbWRHZXRGYWNlUGFyYW1zEjMKC0ZhY2VfY29uZmlnGAEgASgL",
-            "Mh4uRERSQ29tbVByb3RvLkZhY2VTZXJ2ZXJDb25maWciSgoTcmVxQ21kU2V0",
-            "RmFjZVBhcmFtcxIzCgtGYWNlX2NvbmZpZxgBIAEoCzIeLkREUkNvbW1Qcm90",
-            "by5GYWNlU2VydmVyQ29uZmlnIj4KE3JzcENtZFNldEZhY2VQYXJhbXMSJwoE",
-            "dHlwZRgBIAEoDjIZLkREUkNvbW1Qcm90by5lQ21kUnNwVHlwZSqvAgoIZUNs",
-            "dFR5cGUSCQoFZU51bGwQABISCg5lTG9jYWxQQ0NsaWVudBABEhcKE2VMb2Nh",
-            "bEFuZHJvaWRDbGllbnQQAhITCg9lUmVtb3RlUENDbGllbnQQBBIYChRlUmVt",
-            "b3RlQW5kcm9pZENsaWVudBAIEg8KCmVBbGxDbGllbnQQ/wESFAoPZUxTTVN0",
-            "cmVhbVJlbGF5EIACEhcKEmVMU01TbGFtTmF2aWdhdGlvbhCABBIYChNlTFNN",
-            "RmFjZVJlY29nbml0aW9uEIAIEhcKEmVMU01UaGVybWFsSW1hZ2luZxCAEBIN",
-            "CgdlQWxsTFNNEID+AxISCgxlTG9jYWxTZXJ2ZXIQgIAEEhMKDWVSZW1vdGVT",
-            "ZXJ2ZXIQgIAIEhEKCmVBbGxTZXJ2ZXIQgID8ByphCgtlQ21kUnNwVHlwZRIM",
-            "CghlU3VjY2VzcxAAEg4KCmVDbWRGYWlsZWQQARIQCgxlTm9BdXRob3JpdHkQ",
-            "AhIRCg1lUm9ib3ROb0xvZ2luEAMSDwoLZUxTTU5vTG9naW4QBCo3CgtlQ21k",
-            "SVBDTW9kZRINCgllU2h1dERvd24QABIMCghlUmVTdGFydBABEgsKB2VWb2x1",
-            "bWUQAip7Cg5lQ21kQWN0aW9uTW9kZRIQCgxlQXV0b0R5bmFtaWMQABIPCgtl",
-            "QXV0b1N0YXRpYxABEhUKEWVCbGluZFdhbGREeW5hbWljEAISFAoQZUJsaW5k",
-            "V2FsZFN0YXRpYxADEggKBGVSZWMQBBIPCgtlUmVDaGFyZ2luZxAFKjMKCmVG",
-            "aWxlVHlwZXMSEAoMRmlsZUNvbnRlbnRzEAASEwoPRmlsZUh0dHBBZGRyZXNz",
-            "EAEqKwoSQ2hhbm5lbE5ldHdvcmtUeXBlEgkKBUxvY2FsEAASCgoGUmVtb3Rl",
-            "EAEqOQoRQ2hhbm5lbFN0cmVhbVR5cGUSCQoFVmlkZW8QABIJCgVBdWRpbxAB",
-            "Eg4KClZpZGVvQXVkaW8QAiqAAQoLZVRhbGtTdGF0dXMSEAoMRVRTX1NUQVJU",
-            "X09LEAASFAoQRVRTX1VTRV9CWV9PVEhFUhABEg8KC0VUU19TVE9QX09LEAIS",
-            "IQodRVRTX05PX1VTRVJfQ09OTkVDVEVEX1dJVEhfSVAQAxIVChFFVFNfVU5L",
-            "Tk9XTl9FUlJPUhAEKjsKC2VQZXJzb25UeXBlEg4KCmVXaGl0ZUxpc3QQABIO",
-            "CgplQmxhY2tMaXN0EAESDAoIZVJlZExpc3QQAmIGcHJvdG8z"));
+            "KAkilwIKCGJjTFNBZGRyEjIKB0xTSW5mb3MYASADKAsyIS5ERFJDb21tUHJv",
+            "dG8uYmNMU0FkZHIuU2VydmVySW5mbxp6CgpTZXJ2ZXJJbmZvEgwKBG5hbWUY",
+            "ASABKAkSMgoFc3R5cGUYAiABKA4yIy5ERFJDb21tUHJvdG8uYmNMU0FkZHIu",
+            "ZVNlcnZpY2VUeXBlEgsKA2lwcxgDIAMoCRIMCgRwb3J0GAQgASgFEg8KB3Jv",
+            "Ym90aWQYBSABKAkiWwoMZVNlcnZpY2VUeXBlEg8KC0xvY2FsU2VydmVyEAAS",
+            "EAoMUmVtb3RlU2VydmVyEAESFAoQUlRTUFN0cmVhbVNlcnZlchACEhIKDlRh",
+            "bGtCYWNrU2VydmVyEAMiUwoIcmVxTG9naW4SJAoEdHlwZRgBIAEoDjIWLkRE",
+            "UkNvbW1Qcm90by5lQ2x0VHlwZRIQCgh1c2VybmFtZRgCIAEoCRIPCgd1c2Vy",
+            "cHdkGAMgASgJIt4BCghyc3BMb2dpbhI1CgdyZXRjb2RlGAEgASgOMiQuRERS",
+            "Q29tbVByb3RvLnJzcExvZ2luLmVMb2dpblJldENvZGUSKAoIeW91clJvbGUY",
+            "AiABKA4yFi5ERFJDb21tUHJvdG8uZUNsdFR5cGUSEAoIcHJpb3JpdHkYAyAB",
+            "KAUiXwoNZUxvZ2luUmV0Q29kZRILCgdzdWNjZXNzEAASDwoLc2VydmVyX2J1",
+            "c3kQARIYChRzZXJ2ZXJfbGltaXRfcmVhY2hlZBACEhYKEmluY29ycmVjdF9w",
+            "YXNzd29yZBADIjcKCnJlcUNtZE1vdmUSEgoKbGluZV9zcGVlZBgBIAEoAhIV",
+            "Cg1hbmd1bGF1X3NwZWVkGAIgASgCIjUKCnJzcENtZE1vdmUSJwoEdHlwZRgB",
+            "IAEoDjIZLkREUkNvbW1Qcm90by5lQ21kUnNwVHlwZSImChFyZXFDbWRDaGFu",
+            "Z2VTcGVlZBIRCglhZGRfc3BlZWQYASABKAUiPAoRcnNwQ21kQ2hhbmdlU3Bl",
+            "ZWQSJwoEdHlwZRgBIAEoDjIZLkREUkNvbW1Qcm90by5lQ21kUnNwVHlwZSIi",
+            "ChFyZXFDbWRQYXVzZVJlc3VtZRINCgVlcnJvchgBIAEoCSI8ChFyc3BDbWRQ",
+            "YXVzZVJlc3VtZRInCgR0eXBlGAEgASgOMhkuRERSQ29tbVByb3RvLmVDbWRS",
+            "c3BUeXBlIkQKCXJlcUNtZElQQxInCgRtb2RlGAEgASgOMhkuRERSQ29tbVBy",
+            "b3RvLmVDbWRJUENNb2RlEg4KBnZhbHVlcxgCIAEoBSJtCglyc3BDbWRJUEMS",
+            "JwoEbW9kZRgBIAEoDjIZLkREUkNvbW1Qcm90by5lQ21kSVBDTW9kZRInCgR0",
+            "eXBlGAIgASgOMhkuRERSQ29tbVByb3RvLmVDbWRSc3BUeXBlEg4KBnZhbHVl",
+            "cxgDIAEoBSLuAQoLcmVxQ21kQXVkaW8SOwoGYXVkaW9wGAEgASgOMisuRERS",
+            "Q29tbVByb3RvLnJlcUNtZEF1ZGlvLmVBdWRpb09wZXJhdGlvbmFsEjIKBHR5",
+            "cGUYAiABKA4yJC5ERFJDb21tUHJvdG8ucmVxQ21kQXVkaW8uZUF1ZGlvTW9k",
+            "ZRIQCghBdWRpb3N0chgDIAEoDBINCgVsZXZlbBgEIAEoBSIhCgplQXVkaW9N",
+            "b2RlEggKBGVUVFMQABIJCgVlRmlsZRABIioKEWVBdWRpb09wZXJhdGlvbmFs",
+            "EgoKBmVTdGFydBAAEgkKBWVTdG9wEAEiNgoLcnNwQ21kQXVkaW8SJwoEdHlw",
+            "ZRgBIAEoDjIZLkREUkNvbW1Qcm90by5lQ21kUnNwVHlwZSI0ChJyZXFDbWRV",
+            "cGRhdGVDb25maWcSDAoEZGF0YRgBIAEoCRIQCghkYXRhbmFtZRgCIAEoCSJP",
+            "ChJyc3BDbWRVcGRhdGVDb25maWcSJwoEdHlwZRgBIAEoDjIZLkREUkNvbW1Q",
+            "cm90by5lQ21kUnNwVHlwZRIQCghkYXRhbmFtZRgCIAEoCSIkChNyZXFDbWRH",
+            "ZXRDb25maWdkYXRhEg0KBWVycm9yGAEgASgJIlIKE3JzcENtZEdldENvbmZp",
+            "Z2RhdGESJwoEdHlwZRgBIAEoDjIZLkREUkNvbW1Qcm90by5lQ21kUnNwVHlw",
+            "ZRISCgpjb25maWdkYXRhGAIgAygFIl0KEXJlcUNtZFNldFdvcmtQYXRoEhIK",
+            "CnJvdXRlX25hbWUYASABKAwSEQoJcGF0aF9uYW1lGAIgASgJEg0KBXNwZWVk",
+            "GAMgASgCEhIKCndhbGtfc3R5bGUYBCABKAkiPAoRcnNwQ21kU2V0V29ya1Bh",
+            "dGgSJwoEdHlwZRgBIAEoDjIZLkREUkNvbW1Qcm90by5lQ21kUnNwVHlwZSKb",
+            "AQoOcmVxQ21kQXV0b0NoYXQSOAoEdHlwZRgBIAEoDjIqLkREUkNvbW1Qcm90",
+            "by5yZXFDbWRBdXRvQ2hhdC5lQXV0b0NoYXRUeXBlEg4KBmNvbW51bRgCIAEo",
+            "BSI/Cg1lQXV0b0NoYXRUeXBlEhAKDGVTdGFydE9ubGluZRAAEhEKDWVTdGFy",
+            "dE9mZmxpbmUQARIJCgVlU3RvcBACIjkKDnJzcENtZEF1dG9DaGF0EicKBHR5",
+            "cGUYASABKA4yGS5ERFJDb21tUHJvdG8uZUNtZFJzcFR5cGUijgEKE3JlcUNt",
+            "ZEdlbmVyYWxPY3RyZWUSEgoKcm91dGVfbmFtZRgBIAEoDBI7CgR0eXBlGAIg",
+            "ASgOMi0uRERSQ29tbVByb3RvLnJlcUNtZEdlbmVyYWxPY3RyZWUuZU9jdHJl",
+            "ZVR5cGUiJgoLZU9jdHJlZVR5cGUSCwoHZUNyZWF0ZRAAEgoKBmVRdWVyeRAB",
+            "IsUBChNyc3BDbWRHZW5lcmFsT2N0cmVlEicKBHR5cGUYASABKA4yGS5ERFJD",
+            "b21tUHJvdG8uZUNtZFJzcFR5cGUSPwoFb3R5cGUYAiABKA4yMC5ERFJDb21t",
+            "UHJvdG8ucnNwQ21kR2VuZXJhbE9jdHJlZS5lUnNwT2N0cmVlVHlwZSJECg5l",
+            "UnNwT2N0cmVlVHlwZRISCg5lRmlsZU5vdEV4aXN0cxAAEg8KC2VGaWxlRXhp",
+            "c3RzEAESDQoJZUluQ3JlYXRlEAIiVwoVcmVxQ21kU3RhcnRBY3Rpb25Nb2Rl",
+            "EioKBG1vZGUYASABKA4yHC5ERFJDb21tUHJvdG8uZUNtZEFjdGlvbk1vZGUS",
+            "EgoKcm91dGVfbmFtZRgCIAEoDCJsChVyc3BDbWRTdGFydEFjdGlvbk1vZGUS",
+            "KgoEbW9kZRgBIAEoDjIcLkREUkNvbW1Qcm90by5lQ21kQWN0aW9uTW9kZRIn",
+            "CgR0eXBlGAIgASgOMhkuRERSQ29tbVByb3RvLmVDbWRSc3BUeXBlIiQKE3Jl",
+            "cUNtZEVuZEFjdGlvbk1vZGUSDQoFZXJyb3IYASABKAkihAEKE3JzcENtZEVu",
+            "ZEFjdGlvbk1vZGUSMAoKYWN0aW9ubW9kZRgBIAEoDjIcLkREUkNvbW1Qcm90",
+            "by5lQ21kQWN0aW9uTW9kZRInCgR0eXBlGAIgASgOMhkuRERSQ29tbVByb3Rv",
+            "LmVDbWRSc3BUeXBlEhIKCnJvdXRlX25hbWUYAyABKAwiRAobcmVxQ21kRGVs",
+            "ZXRlQ3VyclJvdXRlT3JQYXRoEhIKCnJvdXRlX25hbWUYASABKAwSEQoJcGF0",
+            "aF9uYW1lGAIgASgMIkYKG3JzcENtZERlbGV0ZUN1cnJSb3V0ZU9yUGF0aBIn",
+            "CgR0eXBlGAEgASgOMhkuRERSQ29tbVByb3RvLmVDbWRSc3BUeXBlIioKGXJl",
+            "cUNtZEdldEN1cnJSb3V0ZUFuZFBhdGgSDQoFZXJyb3IYASABKAkiMgoJUm91",
+            "dGVEYXRhEhIKCnJvdXRlX25hbWUYASABKAwSEQoJcGF0aF9uYW1lGAIgAygM",
+            "InEKGXJzcENtZEdldEN1cnJSb3V0ZUFuZFBhdGgSJwoEdHlwZRgBIAEoDjIZ",
+            "LkREUkNvbW1Qcm90by5lQ21kUnNwVHlwZRIrCgpyb3V0ZV9kYXRhGAIgAygL",
+            "MhcuRERSQ29tbVByb3RvLlJvdXRlRGF0YSLKAwoQbm90aWZ5QmFzZVN0YXR1",
+            "cxIMCgRtb2RlGAEgASgFEg8KB3Nvbm1vZGUYAiABKAUSDAoEYmF0dBgDIAEo",
+            "AhIMCgR0ZW1wGAQgASgCEgsKA2h1bRgFIAEoAhIMCgRwbTI1GAYgASgCEhAK",
+            "CHN0b3BzdGF0GAcgASgFEhAKCGZ1bmNzdGF0GAggASgDEhEKCXZvaWNlbG9v",
+            "cBgJIAEoBRIRCgljdXJycm91dGUYCiABKAwSEAoIY3VycnBhdGgYCyABKAkS",
+            "EQoJY3VycnNwZWVkGAwgASgCEhUKDWN1cnJ3YWxrc3R5bGUYDSABKAkSDAoE",
+            "cG9zeBgOIAEoAhIMCgRwb3N5GA8gASgCEhQKDHBvc2RpcmVjdGlvbhgQIAEo",
+            "AhIUCgxwb3NsaW5lc3BlZWQYESABKAISFwoPcG9zYW5ndWxhdXNwZWVkGBIg",
+            "ASgCEhEKCWxvbmdpdHVkZRgTIAEoARIQCghsYXRpdHVkZRgUIAEoARIRCgl0",
+            "aW1lc3RhbXAYFSABKAMSEwoLdGhlcm1hbG1heHgYFiABKAUSEwoLdGhlcm1h",
+            "bG1heHkYFyABKAUSFwoPdGhlcm1hbG1heHZhbHVlGBggASgCIjwKBk9BSW5m",
+            "bxISCgpzdGFydGFuZ2xlGAEgASgCEhAKCGVuZGFuZ2xlGAIgASgCEgwKBGRp",
+            "c3QYAyABKAIiWAoNbm90aWZ5T2JzRGF0YRIQCghncmVlZHJlZBgBIAEoBRIP",
+            "CgdtYXhkaXN0GAIgASgCEiQKBm9hc3RhdBgDIAMoCzIULkREUkNvbW1Qcm90",
+            "by5PQUluZm8ilQEKD25vdGlmeUFsYXJtSW5mbxI2CgR0eXBlGAEgASgOMigu",
+            "RERSQ29tbVByb3RvLm5vdGlmeUFsYXJtSW5mby5lQWxhcm1UeXBlEhQKDGFs",
+            "YXJtY29udGVudBgCIAEoCSI0CgplQWxhcm1UeXBlEhEKDWVUaGVybWFsQWxh",
+            "cm0QABITCg9lT2JzU3RhdHVzQWxhcm0QASKAAQoSbm90aWZ5QWxhcm1OZXdG",
+            "YWNlEicKBHR5cGUYASABKA4yGS5ERFJDb21tUHJvdG8uZVBlcnNvblR5cGUS",
+            "DAoEbmFtZRgCIAEoCRINCgVzb2NyZRgDIAEoAhIQCghwcmV2dGltZRgEIAEo",
+            "AxISCgpmYWNlZGVjb2RlGAUgAygFIogBCgxBbGFybUZpcmVQb3MSDAoEcG9z",
+            "eBgBIAEoBRIMCgRwb3N5GAIgASgFEhAKCHBvc3dpZHRoGAMgASgFEhEKCXBv",
+            "c2hlaWdodBgEIAEoBRIOCgZtYXh0ZW0YBSABKAUSDgoGYXZndGVtGAYgASgF",
+            "EhcKD2FsYXJtcG9pbnRjb3VudBgHIAEoBSI6Cg9ub3RpZnlBbGFybUZpcmUS",
+            "JwoDcG9zGAEgAygLMhouRERSQ29tbVByb3RvLkFsYXJtRmlyZVBvcyIeCgly",
+            "ZXFTdGF0dXMSEQoJc3RhdHVzTXNnGAEgASgJIh0KDHJlcUZhY2VBbGFybRIN",
+            "CgVlcnJvchgBIAEoCSIcCgtyZXFIb3RBbGFybRINCgVlcnJvchgBIAEoCSIc",
+            "CgtyZXFPYnNBbGFybRINCgVlcnJvchgBIAEoCSIfCgtyZXFUZXh0Q2hhdBIQ",
+            "CghjaGF0VGV4dBgBIAEoCSLBAQoSQVZTdHJlYW1TcmNDaGFubmVsEg8KB3Ny",
+            "Y0FkZHIYASABKAkSDwoHc3JjUG9ydBgCIAMoBRIzCgpzdHJlYW1UeXBlGAMg",
+            "ASgOMh8uRERSQ29tbVByb3RvLkNoYW5uZWxTdHJlYW1UeXBlEjUKC25ldHdv",
+            "cmtUeXBlGAQgASgOMiAuRERSQ29tbVByb3RvLkNoYW5uZWxOZXR3b3JrVHlw",
+            "ZRIMCgRyYXRlGAUgASgFEg8KB3NyY25hbWUYBiABKAwiRgoNcmVxU3RyZWFt",
+            "QWRkchI1CgtuZXR3b3JrVHlwZRgBIAEoDjIgLkREUkNvbW1Qcm90by5DaGFu",
+            "bmVsTmV0d29ya1R5cGUiUgoNcnNwU3RyZWFtQWRkchIyCghjaGFubmVscxgB",
+            "IAMoCzIgLkREUkNvbW1Qcm90by5BVlN0cmVhbVNyY0NoYW5uZWwSDQoFZXJy",
+            "b3IYAyABKAkivwEKDHJlcUF1ZGlvVGFsaxIyCgZvcFR5cGUYASABKA4yIi5E",
+            "RFJDb21tUHJvdG8ucmVxQXVkaW9UYWxrLmVPcE1vZGUSNAoHbmV0VHlwZRgC",
+            "IAEoDjIjLkREUkNvbW1Qcm90by5yZXFBdWRpb1RhbGsuZU5ldFR5cGUiIAoH",
+            "ZU9wTW9kZRIKCgZlU3RhcnQQABIJCgVlU3RvcBABIiMKCGVOZXRUeXBlEgoK",
+            "BmVMb2NhbBAAEgsKB2VSZW1vdGUQASJICgxyc3BBdWRpb1RhbGsSKQoGc3Rh",
+            "dHVzGAEgASgOMhkuRERSQ29tbVByb3RvLmVUYWxrU3RhdHVzEg0KBWVycm9y",
+            "GAIgASgJIlUKEG5vdGlmeVN0cmVhbUFkZHISMgoIY2hhbm5lbHMYASADKAsy",
+            "IC5ERFJDb21tUHJvdG8uQVZTdHJlYW1TcmNDaGFubmVsEg0KBWVycm9yGAMg",
+            "ASgJIlIKC25vdGlmeUFsYXJtEiQKBGZyb20YASABKA4yFi5ERFJDb21tUHJv",
+            "dG8uZUNsdFR5cGUSDgoGZnJvbUlQGAIgASgJEg0KBWVycm9yGAMgASgJIn8K",
+            "DnJlcUZpbGVBZGRyZXNzEi4KDnRhclNlcnZpY2VUeXBlGAEgASgOMhYuRERS",
+            "Q29tbVByb3RvLmVDbHRUeXBlEioKCGZpbGVUeXBlGAIgASgOMhguRERSQ29t",
+            "bVByb3RvLmVGaWxlVHlwZXMSEQoJZmlsZU5hbWVzGAMgAygMIpEBCg5yc3BG",
+            "aWxlQWRkcmVzcxIuCg50YXJTZXJ2aWNlVHlwZRgBIAEoDjIWLkREUkNvbW1Q",
+            "cm90by5lQ2x0VHlwZRIqCghmaWxlVHlwZRgCIAEoDjIYLkREUkNvbW1Qcm90",
+            "by5lRmlsZVR5cGVzEhQKDGZpbGVBZGRyTGlzdBgDIAMoDBINCgVlcnJvchgE",
+            "IAEoCSK2AQoPQVZDaGFubmVsQ29uZmlnEgsKA3NyYxgBIAEoCRILCgNkc3QY",
+            "AiABKAkSMwoKc3RyZWFtVHlwZRgDIAEoDjIfLkREUkNvbW1Qcm90by5DaGFu",
+            "bmVsU3RyZWFtVHlwZRI1CgtuZXR3b3JrVHlwZRgEIAEoDjIgLkREUkNvbW1Q",
+            "cm90by5DaGFubmVsTmV0d29ya1R5cGUSDAoEcmF0ZRgFIAEoBRIPCgdzcmNu",
+            "YW1lGAYgASgMIiQKFHJlcVN0cmVhbVNlcnZpY2VJbmZvEgwKBG5hbWUYASAB",
+            "KAkiWAoUcnNwU3RyZWFtU2VydmljZUluZm8SDwoHdGNwUG9ydBgBIAEoBRIv",
+            "CghjaGFubmVscxgCIAMoCzIdLkREUkNvbW1Qcm90by5BVkNoYW5uZWxDb25m",
+            "aWciUQoebm90aWZ5U3RyZWFtU2VydmljZUluZm9DaGFuZ2VkEi8KCGNoYW5u",
+            "ZWxzGAEgAygLMh0uRERSQ29tbVByb3RvLkFWQ2hhbm5lbENvbmZpZyJIChNy",
+            "ZXFTdHJlYW1SZWxheUFsYXJtEg0KBWVycm9yGAEgASgJEiIKAnRvGAIgAygO",
+            "MhYuRERSQ29tbVByb3RvLmVDbHRUeXBlIikKE1RoZXJtYWxTZXJ2ZXJDb25m",
+            "aWcSEgoKYWxhcm1fdGVtcBgBIAEoAiInChZyZXFDbWRHZXRUaGVybWFsUGFy",
+            "YW1zEg0KBWVycm9yGAEgASgJIlMKFnJzcENtZEdldFRoZXJtYWxQYXJhbXMS",
+            "OQoOdGhlcm1hbF9jb25maWcYASABKAsyIS5ERFJDb21tUHJvdG8uVGhlcm1h",
+            "bFNlcnZlckNvbmZpZyJTChZyZXFDbWRTZXRUaGVybWFsUGFyYW1zEjkKDnRo",
+            "ZXJtYWxfY29uZmlnGAEgASgLMiEuRERSQ29tbVByb3RvLlRoZXJtYWxTZXJ2",
+            "ZXJDb25maWciQQoWcnNwQ21kU2V0VGhlcm1hbFBhcmFtcxInCgR0eXBlGAEg",
+            "ASgOMhkuRERSQ29tbVByb3RvLmVDbWRSc3BUeXBlIlcKDXJlcUNtZEFkZEZh",
+            "Y2USDAoEbmFtZRgBIAEoDBInCgR0eXBlGAIgASgOMhkuRERSQ29tbVByb3Rv",
+            "LmVQZXJzb25UeXBlEg8KB3BpY2RhdGEYAyADKAUiOAoNcnNwQ21kQWRkRmFj",
+            "ZRInCgR0eXBlGAEgASgOMhkuRERSQ29tbVByb3RvLmVDbWRSc3BUeXBlIigK",
+            "F3JlcUNtZEZhY2VEYXRhQmFzZU9yZGVyEg0KBU9yZGVyGAEgASgJImQKEEZh",
+            "Y2VEYXRhQmFzZURhdGESCgoCaWQYASABKAUSDAoEbmFtZRgCIAEoDBInCgR0",
+            "eXBlGAMgASgOMhkuRERSQ29tbVByb3RvLmVQZXJzb25UeXBlEg0KBWxhYmVs",
+            "GAQgASgJIsgBChdyc3BDbWRGYWNlRGF0YUJhc2VPcmRlchInCgR0eXBlGAEg",
+            "ASgOMhkuRERSQ29tbVByb3RvLmVDbWRSc3BUeXBlEiwKBGRhdGEYAiADKAsy",
+            "Hi5ERFJDb21tUHJvdG8uRmFjZURhdGFCYXNlRGF0YSJWChBlUnNwRGF0YUJh",
+            "c2VUeXBlEgoKBmVFcnJvchAAEg8KC2VRdWVyeUNvdW50EAESEgoOZURlbGV0",
+            "ZVN1Y2Nlc3MQAhIRCg1lRGV0YWlsZWREYXRhEAMiPAoQRmFjZVNlcnZlckNv",
+            "bmZpZxISCgpDb25maWRlbmNlGAEgASgCEhQKDEZhY2VfcXVhbGl0eRgCIAEo",
+            "AiIkChNyZXFDbWRHZXRGYWNlUGFyYW1zEg0KBWVycm9yGAEgASgJIkoKE3Jz",
+            "cENtZEdldEZhY2VQYXJhbXMSMwoLRmFjZV9jb25maWcYASABKAsyHi5ERFJD",
+            "b21tUHJvdG8uRmFjZVNlcnZlckNvbmZpZyJKChNyZXFDbWRTZXRGYWNlUGFy",
+            "YW1zEjMKC0ZhY2VfY29uZmlnGAEgASgLMh4uRERSQ29tbVByb3RvLkZhY2VT",
+            "ZXJ2ZXJDb25maWciPgoTcnNwQ21kU2V0RmFjZVBhcmFtcxInCgR0eXBlGAEg",
+            "ASgOMhkuRERSQ29tbVByb3RvLmVDbWRSc3BUeXBlKsECCghlQ2x0VHlwZRIJ",
+            "CgVlTnVsbBAAEhIKDmVMb2NhbFBDQ2xpZW50EAESFwoTZUxvY2FsQW5kcm9p",
+            "ZENsaWVudBACEhMKD2VSZW1vdGVQQ0NsaWVudBAEEhgKFGVSZW1vdGVBbmRy",
+            "b2lkQ2xpZW50EAgSDwoKZUFsbENsaWVudBD/ARIUCg9lTFNNU3RyZWFtUmVs",
+            "YXkQgAISFwoSZUxTTVNsYW1OYXZpZ2F0aW9uEIAEEhgKE2VMU01GYWNlUmVj",
+            "b2duaXRpb24QgAgSFwoSZUxTTVRoZXJtYWxJbWFnaW5nEIAQEhAKC2VMU01W",
+            "aXJ0dWFsEIAgEg0KB2VBbGxMU00QgP4DEhIKDGVMb2NhbFNlcnZlchCAgAQS",
+            "EwoNZVJlbW90ZVNlcnZlchCAgAgSEQoKZUFsbFNlcnZlchCAgPwHKmEKC2VD",
+            "bWRSc3BUeXBlEgwKCGVTdWNjZXNzEAASDgoKZUNtZEZhaWxlZBABEhAKDGVO",
+            "b0F1dGhvcml0eRACEhEKDWVSb2JvdE5vTG9naW4QAxIPCgtlTFNNTm9Mb2dp",
+            "bhAEKjcKC2VDbWRJUENNb2RlEg0KCWVTaHV0RG93bhAAEgwKCGVSZVN0YXJ0",
+            "EAESCwoHZVZvbHVtZRACKnsKDmVDbWRBY3Rpb25Nb2RlEhAKDGVBdXRvRHlu",
+            "YW1pYxAAEg8KC2VBdXRvU3RhdGljEAESFQoRZUJsaW5kV2FsZER5bmFtaWMQ",
+            "AhIUChBlQmxpbmRXYWxkU3RhdGljEAMSCAoEZVJlYxAEEg8KC2VSZUNoYXJn",
+            "aW5nEAUqKwoSQ2hhbm5lbE5ldHdvcmtUeXBlEgkKBUxvY2FsEAASCgoGUmVt",
+            "b3RlEAEqOQoRQ2hhbm5lbFN0cmVhbVR5cGUSCQoFVmlkZW8QABIJCgVBdWRp",
+            "bxABEg4KClZpZGVvQXVkaW8QAiqAAQoLZVRhbGtTdGF0dXMSEAoMRVRTX1NU",
+            "QVJUX09LEAASFAoQRVRTX1VTRV9CWV9PVEhFUhABEg8KC0VUU19TVE9QX09L",
+            "EAISIQodRVRTX05PX1VTRVJfQ09OTkVDVEVEX1dJVEhfSVAQAxIVChFFVFNf",
+            "VU5LTk9XTl9FUlJPUhAEKjMKCmVGaWxlVHlwZXMSEAoMRmlsZUNvbnRlbnRz",
+            "EAASEwoPRmlsZUh0dHBBZGRyZXNzEAEqOwoLZVBlcnNvblR5cGUSDgoKZVdo",
+            "aXRlTGlzdBAAEg4KCmVCbGFja0xpc3QQARIMCghlUmVkTGlzdBACYgZwcm90",
+            "bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::DDRCommProto.eCltType), typeof(global::DDRCommProto.eCmdRspType), typeof(global::DDRCommProto.eCmdIPCMode), typeof(global::DDRCommProto.eCmdActionMode), typeof(global::DDRCommProto.eFileTypes), typeof(global::DDRCommProto.ChannelNetworkType), typeof(global::DDRCommProto.ChannelStreamType), typeof(global::DDRCommProto.eTalkStatus), typeof(global::DDRCommProto.ePersonType), }, new pbr::GeneratedClrTypeInfo[] {
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::DDRCommProto.eCltType), typeof(global::DDRCommProto.eCmdRspType), typeof(global::DDRCommProto.eCmdIPCMode), typeof(global::DDRCommProto.eCmdActionMode), typeof(global::DDRCommProto.ChannelNetworkType), typeof(global::DDRCommProto.ChannelStreamType), typeof(global::DDRCommProto.eTalkStatus), typeof(global::DDRCommProto.eFileTypes), typeof(global::DDRCommProto.ePersonType), }, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.CommonHeader), global::DDRCommProto.CommonHeader.Parser, new[]{ "BodyType", "FromCltType", "ToCltType", "PassNodeArray", "FlowDirection" }, null, new[]{ typeof(global::DDRCommProto.CommonHeader.Types.eFlowDir) }, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.CommonHeader.Types.PassNode), global::DDRCommProto.CommonHeader.Types.PassNode.Parser, new[]{ "NodeType", "ReceiveSessionID", "IntptrData", "FromIP" }, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.HeartBeat), global::DDRCommProto.HeartBeat.Parser, new[]{ "Whatever" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.reqRemoteServerList), global::DDRCommProto.reqRemoteServerList.Parser, new[]{ "Fromip" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.rspRemoteServerList), global::DDRCommProto.rspRemoteServerList.Parser, new[]{ "Servers" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.rspRemoteServerList.Types.RemoteServer), global::DDRCommProto.rspRemoteServerList.Types.RemoteServer.Parser, new[]{ "Name", "Ip", "Port" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.reqRegisteLS), global::DDRCommProto.reqRegisteLS.Parser, new[]{ "Udid", "Name" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.rspRegisteLS), global::DDRCommProto.rspRegisteLS.Parser, new[]{ "Error" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.reqRemoteLogin), global::DDRCommProto.reqRemoteLogin.Parser, new[]{ "Type", "Username", "Userpwd" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.rspRemoteLogin), global::DDRCommProto.rspRemoteLogin.Parser, new[]{ "Lslist", "Retcode", "YourRole" }, null, new[]{ typeof(global::DDRCommProto.rspRemoteLogin.Types.eRemoteLoginRetCode) }, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.rspRemoteLogin.Types.LSEntity), global::DDRCommProto.rspRemoteLogin.Types.LSEntity.Parser, new[]{ "Udid", "Name" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.reqSelectLS), global::DDRCommProto.reqSelectLS.Parser, new[]{ "Udid" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.rspSelectLS), global::DDRCommProto.rspSelectLS.Parser, new[]{ "Error" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.reqUnselectLS), global::DDRCommProto.reqUnselectLS.Parser, new[]{ "Udid" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.rspUnselectLS), global::DDRCommProto.rspUnselectLS.Parser, new[]{ "Error" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.bcLSAddr), global::DDRCommProto.bcLSAddr.Parser, new[]{ "LSInfos" }, null, new[]{ typeof(global::DDRCommProto.bcLSAddr.Types.eServiceType) }, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.bcLSAddr.Types.ServerInfo), global::DDRCommProto.bcLSAddr.Types.ServerInfo.Parser, new[]{ "Name", "Stype", "Ips", "Port", "Robotid" }, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.reqLogin), global::DDRCommProto.reqLogin.Parser, new[]{ "Type", "Username", "Userpwd" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.rspLogin), global::DDRCommProto.rspLogin.Parser, new[]{ "Retcode", "YourRole" }, null, new[]{ typeof(global::DDRCommProto.rspLogin.Types.eLoginRetCode) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.rspLogin), global::DDRCommProto.rspLogin.Parser, new[]{ "Retcode", "YourRole", "Priority" }, null, new[]{ typeof(global::DDRCommProto.rspLogin.Types.eLoginRetCode) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.reqCmdMove), global::DDRCommProto.reqCmdMove.Parser, new[]{ "LineSpeed", "AngulauSpeed" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.rspCmdMove), global::DDRCommProto.rspCmdMove.Parser, new[]{ "Type" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.reqCmdChangeSpeed), global::DDRCommProto.reqCmdChangeSpeed.Parser, new[]{ "AddSpeed" }, null, null, null),
@@ -299,10 +257,6 @@ namespace DDRCommProto {
             new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.notifyAlarmNewFace), global::DDRCommProto.notifyAlarmNewFace.Parser, new[]{ "Type", "Name", "Socre", "Prevtime", "Facedecode" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.AlarmFirePos), global::DDRCommProto.AlarmFirePos.Parser, new[]{ "Posx", "Posy", "Poswidth", "Posheight", "Maxtem", "Avgtem", "Alarmpointcount" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.notifyAlarmFire), global::DDRCommProto.notifyAlarmFire.Parser, new[]{ "Pos" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.chkFileStatus), global::DDRCommProto.chkFileStatus.Parser, new[]{ "FileType", "Filefmt", "Existfiles", "TarServiceType" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.ansFileStatus), global::DDRCommProto.ansFileStatus.Parser, new[]{ "FileType", "FileAddrList" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.notifyUploadFile), global::DDRCommProto.notifyUploadFile.Parser, new[]{ "HttpAddr", "Filefmt", "Existfiles", "TarServiceType" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.notifyUploadFileProgress), global::DDRCommProto.notifyUploadFileProgress.Parser, new[]{ "Progress", "Uploadedfiles" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.reqStatus), global::DDRCommProto.reqStatus.Parser, new[]{ "StatusMsg" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.reqFaceAlarm), global::DDRCommProto.reqFaceAlarm.Parser, new[]{ "Error" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.reqHotAlarm), global::DDRCommProto.reqHotAlarm.Parser, new[]{ "Error" }, null, null, null),
@@ -317,8 +271,6 @@ namespace DDRCommProto {
             new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.notifyAlarm), global::DDRCommProto.notifyAlarm.Parser, new[]{ "From", "FromIP", "Error" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.reqFileAddress), global::DDRCommProto.reqFileAddress.Parser, new[]{ "TarServiceType", "FileType", "FileNames" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.rspFileAddress), global::DDRCommProto.rspFileAddress.Parser, new[]{ "TarServiceType", "FileType", "FileAddrList", "Error" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.reqRemoteFileAddress), global::DDRCommProto.reqRemoteFileAddress.Parser, new[]{ "TarServiceType", "FileType", "FileNames" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.rspRemoteFileAddress), global::DDRCommProto.rspRemoteFileAddress.Parser, new[]{ "TarServiceType", "FileType", "FileAddrList", "Error" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.AVChannelConfig), global::DDRCommProto.AVChannelConfig.Parser, new[]{ "Src", "Dst", "StreamType", "NetworkType", "Rate", "Srcname" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.reqStreamServiceInfo), global::DDRCommProto.reqStreamServiceInfo.Parser, new[]{ "Name" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::DDRCommProto.rspStreamServiceInfo), global::DDRCommProto.rspStreamServiceInfo.Parser, new[]{ "TcpPort", "Channels" }, null, null, null),
@@ -359,6 +311,7 @@ namespace DDRCommProto {
     [pbr::OriginalName("eLSMSlamNavigation")] ELsmslamNavigation = 512,
     [pbr::OriginalName("eLSMFaceRecognition")] ELsmfaceRecognition = 1024,
     [pbr::OriginalName("eLSMThermalImaging")] ELsmthermalImaging = 2048,
+    [pbr::OriginalName("eLSMVirtual")] ELsmvirtual = 4096,
     [pbr::OriginalName("eAllLSM")] EAllLsm = 65280,
     [pbr::OriginalName("eLocalServer")] ELocalServer = 65536,
     [pbr::OriginalName("eRemoteServer")] ERemoteServer = 131072,
@@ -421,11 +374,6 @@ namespace DDRCommProto {
     [pbr::OriginalName("eReCharging")] EReCharging = 5,
   }
 
-  public enum eFileTypes {
-    [pbr::OriginalName("FileContents")] FileContents = 0,
-    [pbr::OriginalName("FileHttpAddress")] FileHttpAddress = 1,
-  }
-
   public enum ChannelNetworkType {
     [pbr::OriginalName("Local")] Local = 0,
     [pbr::OriginalName("Remote")] Remote = 1,
@@ -458,6 +406,11 @@ namespace DDRCommProto {
     ///末知错误
     /// </summary>
     [pbr::OriginalName("ETS_UNKNOWN_ERROR")] EtsUnknownError = 4,
+  }
+
+  public enum eFileTypes {
+    [pbr::OriginalName("FileContents")] FileContents = 0,
+    [pbr::OriginalName("FileHttpAddress")] FileHttpAddress = 1,
   }
 
   /// <summary>
@@ -1083,1801 +1036,6 @@ namespace DDRCommProto {
 
   }
 
-  /// <summary>
-  ///request get remote serverlist , from client or local server to broadcast server
-  /// </summary>
-  public sealed partial class reqRemoteServerList : pb::IMessage<reqRemoteServerList> {
-    private static readonly pb::MessageParser<reqRemoteServerList> _parser = new pb::MessageParser<reqRemoteServerList>(() => new reqRemoteServerList());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<reqRemoteServerList> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[2]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public reqRemoteServerList() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public reqRemoteServerList(reqRemoteServerList other) : this() {
-      fromip_ = other.fromip_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public reqRemoteServerList Clone() {
-      return new reqRemoteServerList(this);
-    }
-
-    /// <summary>Field number for the "fromip" field.</summary>
-    public const int FromipFieldNumber = 1;
-    private string fromip_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Fromip {
-      get { return fromip_; }
-      set {
-        fromip_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as reqRemoteServerList);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(reqRemoteServerList other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Fromip != other.Fromip) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Fromip.Length != 0) hash ^= Fromip.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Fromip.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Fromip);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Fromip.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Fromip);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(reqRemoteServerList other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Fromip.Length != 0) {
-        Fromip = other.Fromip;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Fromip = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class rspRemoteServerList : pb::IMessage<rspRemoteServerList> {
-    private static readonly pb::MessageParser<rspRemoteServerList> _parser = new pb::MessageParser<rspRemoteServerList>(() => new rspRemoteServerList());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<rspRemoteServerList> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[3]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public rspRemoteServerList() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public rspRemoteServerList(rspRemoteServerList other) : this() {
-      servers_ = other.servers_.Clone();
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public rspRemoteServerList Clone() {
-      return new rspRemoteServerList(this);
-    }
-
-    /// <summary>Field number for the "servers" field.</summary>
-    public const int ServersFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::DDRCommProto.rspRemoteServerList.Types.RemoteServer> _repeated_servers_codec
-        = pb::FieldCodec.ForMessage(10, global::DDRCommProto.rspRemoteServerList.Types.RemoteServer.Parser);
-    private readonly pbc::RepeatedField<global::DDRCommProto.rspRemoteServerList.Types.RemoteServer> servers_ = new pbc::RepeatedField<global::DDRCommProto.rspRemoteServerList.Types.RemoteServer>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::DDRCommProto.rspRemoteServerList.Types.RemoteServer> Servers {
-      get { return servers_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as rspRemoteServerList);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(rspRemoteServerList other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if(!servers_.Equals(other.servers_)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      hash ^= servers_.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      servers_.WriteTo(output, _repeated_servers_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      size += servers_.CalculateSize(_repeated_servers_codec);
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(rspRemoteServerList other) {
-      if (other == null) {
-        return;
-      }
-      servers_.Add(other.servers_);
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            servers_.AddEntriesFrom(input, _repeated_servers_codec);
-            break;
-          }
-        }
-      }
-    }
-
-    #region Nested types
-    /// <summary>Container for nested types declared in the rspRemoteServerList message type.</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static partial class Types {
-      public sealed partial class RemoteServer : pb::IMessage<RemoteServer> {
-        private static readonly pb::MessageParser<RemoteServer> _parser = new pb::MessageParser<RemoteServer>(() => new RemoteServer());
-        private pb::UnknownFieldSet _unknownFields;
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public static pb::MessageParser<RemoteServer> Parser { get { return _parser; } }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public static pbr::MessageDescriptor Descriptor {
-          get { return global::DDRCommProto.rspRemoteServerList.Descriptor.NestedTypes[0]; }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        pbr::MessageDescriptor pb::IMessage.Descriptor {
-          get { return Descriptor; }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public RemoteServer() {
-          OnConstruction();
-        }
-
-        partial void OnConstruction();
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public RemoteServer(RemoteServer other) : this() {
-          name_ = other.name_;
-          ip_ = other.ip_;
-          port_ = other.port_;
-          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public RemoteServer Clone() {
-          return new RemoteServer(this);
-        }
-
-        /// <summary>Field number for the "name" field.</summary>
-        public const int NameFieldNumber = 1;
-        private string name_ = "";
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public string Name {
-          get { return name_; }
-          set {
-            name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-          }
-        }
-
-        /// <summary>Field number for the "ip" field.</summary>
-        public const int IpFieldNumber = 2;
-        private string ip_ = "";
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public string Ip {
-          get { return ip_; }
-          set {
-            ip_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-          }
-        }
-
-        /// <summary>Field number for the "port" field.</summary>
-        public const int PortFieldNumber = 3;
-        private int port_;
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public int Port {
-          get { return port_; }
-          set {
-            port_ = value;
-          }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public override bool Equals(object other) {
-          return Equals(other as RemoteServer);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public bool Equals(RemoteServer other) {
-          if (ReferenceEquals(other, null)) {
-            return false;
-          }
-          if (ReferenceEquals(other, this)) {
-            return true;
-          }
-          if (Name != other.Name) return false;
-          if (Ip != other.Ip) return false;
-          if (Port != other.Port) return false;
-          return Equals(_unknownFields, other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public override int GetHashCode() {
-          int hash = 1;
-          if (Name.Length != 0) hash ^= Name.GetHashCode();
-          if (Ip.Length != 0) hash ^= Ip.GetHashCode();
-          if (Port != 0) hash ^= Port.GetHashCode();
-          if (_unknownFields != null) {
-            hash ^= _unknownFields.GetHashCode();
-          }
-          return hash;
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public override string ToString() {
-          return pb::JsonFormatter.ToDiagnosticString(this);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public void WriteTo(pb::CodedOutputStream output) {
-          if (Name.Length != 0) {
-            output.WriteRawTag(10);
-            output.WriteString(Name);
-          }
-          if (Ip.Length != 0) {
-            output.WriteRawTag(18);
-            output.WriteString(Ip);
-          }
-          if (Port != 0) {
-            output.WriteRawTag(24);
-            output.WriteInt32(Port);
-          }
-          if (_unknownFields != null) {
-            _unknownFields.WriteTo(output);
-          }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public int CalculateSize() {
-          int size = 0;
-          if (Name.Length != 0) {
-            size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-          }
-          if (Ip.Length != 0) {
-            size += 1 + pb::CodedOutputStream.ComputeStringSize(Ip);
-          }
-          if (Port != 0) {
-            size += 1 + pb::CodedOutputStream.ComputeInt32Size(Port);
-          }
-          if (_unknownFields != null) {
-            size += _unknownFields.CalculateSize();
-          }
-          return size;
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public void MergeFrom(RemoteServer other) {
-          if (other == null) {
-            return;
-          }
-          if (other.Name.Length != 0) {
-            Name = other.Name;
-          }
-          if (other.Ip.Length != 0) {
-            Ip = other.Ip;
-          }
-          if (other.Port != 0) {
-            Port = other.Port;
-          }
-          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public void MergeFrom(pb::CodedInputStream input) {
-          uint tag;
-          while ((tag = input.ReadTag()) != 0) {
-            switch(tag) {
-              default:
-                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                break;
-              case 10: {
-                Name = input.ReadString();
-                break;
-              }
-              case 18: {
-                Ip = input.ReadString();
-                break;
-              }
-              case 24: {
-                Port = input.ReadInt32();
-                break;
-              }
-            }
-          }
-        }
-
-      }
-
-    }
-    #endregion
-
-  }
-
-  /// <summary>
-  ///register a localserver to a  remote server,ls represent a robot entity. from local server to remote server
-  /// </summary>
-  public sealed partial class reqRegisteLS : pb::IMessage<reqRegisteLS> {
-    private static readonly pb::MessageParser<reqRegisteLS> _parser = new pb::MessageParser<reqRegisteLS>(() => new reqRegisteLS());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<reqRegisteLS> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[4]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public reqRegisteLS() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public reqRegisteLS(reqRegisteLS other) : this() {
-      udid_ = other.udid_;
-      name_ = other.name_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public reqRegisteLS Clone() {
-      return new reqRegisteLS(this);
-    }
-
-    /// <summary>Field number for the "udid" field.</summary>
-    public const int UdidFieldNumber = 1;
-    private string udid_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Udid {
-      get { return udid_; }
-      set {
-        udid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 2;
-    private string name_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as reqRegisteLS);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(reqRegisteLS other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Udid != other.Udid) return false;
-      if (Name != other.Name) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Udid.Length != 0) hash ^= Udid.GetHashCode();
-      if (Name.Length != 0) hash ^= Name.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Udid.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Udid);
-      }
-      if (Name.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(Name);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Udid.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Udid);
-      }
-      if (Name.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(reqRegisteLS other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Udid.Length != 0) {
-        Udid = other.Udid;
-      }
-      if (other.Name.Length != 0) {
-        Name = other.Name;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Udid = input.ReadString();
-            break;
-          }
-          case 18: {
-            Name = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class rspRegisteLS : pb::IMessage<rspRegisteLS> {
-    private static readonly pb::MessageParser<rspRegisteLS> _parser = new pb::MessageParser<rspRegisteLS>(() => new rspRegisteLS());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<rspRegisteLS> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[5]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public rspRegisteLS() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public rspRegisteLS(rspRegisteLS other) : this() {
-      error_ = other.error_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public rspRegisteLS Clone() {
-      return new rspRegisteLS(this);
-    }
-
-    /// <summary>Field number for the "error" field.</summary>
-    public const int ErrorFieldNumber = 1;
-    private string error_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Error {
-      get { return error_; }
-      set {
-        error_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as rspRegisteLS);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(rspRegisteLS other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Error != other.Error) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Error.Length != 0) hash ^= Error.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Error.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Error);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Error.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Error);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(rspRegisteLS other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Error.Length != 0) {
-        Error = other.Error;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Error = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  /// <summary>
-  ///client login to a remote server , from client in internet to remote server
-  /// </summary>
-  public sealed partial class reqRemoteLogin : pb::IMessage<reqRemoteLogin> {
-    private static readonly pb::MessageParser<reqRemoteLogin> _parser = new pb::MessageParser<reqRemoteLogin>(() => new reqRemoteLogin());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<reqRemoteLogin> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[6]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public reqRemoteLogin() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public reqRemoteLogin(reqRemoteLogin other) : this() {
-      type_ = other.type_;
-      username_ = other.username_;
-      userpwd_ = other.userpwd_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public reqRemoteLogin Clone() {
-      return new reqRemoteLogin(this);
-    }
-
-    /// <summary>Field number for the "type" field.</summary>
-    public const int TypeFieldNumber = 1;
-    private global::DDRCommProto.eCltType type_ = 0;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::DDRCommProto.eCltType Type {
-      get { return type_; }
-      set {
-        type_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "username" field.</summary>
-    public const int UsernameFieldNumber = 2;
-    private string username_ = "";
-    /// <summary>
-    /// nickname for clients/monitors, module name for LSM, ignored for RR
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Username {
-      get { return username_; }
-      set {
-        username_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "userpwd" field.</summary>
-    public const int UserpwdFieldNumber = 3;
-    private string userpwd_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Userpwd {
-      get { return userpwd_; }
-      set {
-        userpwd_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as reqRemoteLogin);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(reqRemoteLogin other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Type != other.Type) return false;
-      if (Username != other.Username) return false;
-      if (Userpwd != other.Userpwd) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Type != 0) hash ^= Type.GetHashCode();
-      if (Username.Length != 0) hash ^= Username.GetHashCode();
-      if (Userpwd.Length != 0) hash ^= Userpwd.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Type != 0) {
-        output.WriteRawTag(8);
-        output.WriteEnum((int) Type);
-      }
-      if (Username.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(Username);
-      }
-      if (Userpwd.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(Userpwd);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Type != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Type);
-      }
-      if (Username.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Username);
-      }
-      if (Userpwd.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Userpwd);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(reqRemoteLogin other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Type != 0) {
-        Type = other.Type;
-      }
-      if (other.Username.Length != 0) {
-        Username = other.Username;
-      }
-      if (other.Userpwd.Length != 0) {
-        Userpwd = other.Userpwd;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 8: {
-            type_ = (global::DDRCommProto.eCltType) input.ReadEnum();
-            break;
-          }
-          case 18: {
-            Username = input.ReadString();
-            break;
-          }
-          case 26: {
-            Userpwd = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class rspRemoteLogin : pb::IMessage<rspRemoteLogin> {
-    private static readonly pb::MessageParser<rspRemoteLogin> _parser = new pb::MessageParser<rspRemoteLogin>(() => new rspRemoteLogin());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<rspRemoteLogin> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[7]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public rspRemoteLogin() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public rspRemoteLogin(rspRemoteLogin other) : this() {
-      lslist_ = other.lslist_.Clone();
-      retcode_ = other.retcode_;
-      yourRole_ = other.yourRole_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public rspRemoteLogin Clone() {
-      return new rspRemoteLogin(this);
-    }
-
-    /// <summary>Field number for the "lslist" field.</summary>
-    public const int LslistFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::DDRCommProto.rspRemoteLogin.Types.LSEntity> _repeated_lslist_codec
-        = pb::FieldCodec.ForMessage(10, global::DDRCommProto.rspRemoteLogin.Types.LSEntity.Parser);
-    private readonly pbc::RepeatedField<global::DDRCommProto.rspRemoteLogin.Types.LSEntity> lslist_ = new pbc::RepeatedField<global::DDRCommProto.rspRemoteLogin.Types.LSEntity>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::DDRCommProto.rspRemoteLogin.Types.LSEntity> Lslist {
-      get { return lslist_; }
-    }
-
-    /// <summary>Field number for the "retcode" field.</summary>
-    public const int RetcodeFieldNumber = 2;
-    private global::DDRCommProto.rspRemoteLogin.Types.eRemoteLoginRetCode retcode_ = 0;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::DDRCommProto.rspRemoteLogin.Types.eRemoteLoginRetCode Retcode {
-      get { return retcode_; }
-      set {
-        retcode_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "yourRole" field.</summary>
-    public const int YourRoleFieldNumber = 3;
-    private global::DDRCommProto.eCltType yourRole_ = 0;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::DDRCommProto.eCltType YourRole {
-      get { return yourRole_; }
-      set {
-        yourRole_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as rspRemoteLogin);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(rspRemoteLogin other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if(!lslist_.Equals(other.lslist_)) return false;
-      if (Retcode != other.Retcode) return false;
-      if (YourRole != other.YourRole) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      hash ^= lslist_.GetHashCode();
-      if (Retcode != 0) hash ^= Retcode.GetHashCode();
-      if (YourRole != 0) hash ^= YourRole.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      lslist_.WriteTo(output, _repeated_lslist_codec);
-      if (Retcode != 0) {
-        output.WriteRawTag(16);
-        output.WriteEnum((int) Retcode);
-      }
-      if (YourRole != 0) {
-        output.WriteRawTag(24);
-        output.WriteEnum((int) YourRole);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      size += lslist_.CalculateSize(_repeated_lslist_codec);
-      if (Retcode != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Retcode);
-      }
-      if (YourRole != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) YourRole);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(rspRemoteLogin other) {
-      if (other == null) {
-        return;
-      }
-      lslist_.Add(other.lslist_);
-      if (other.Retcode != 0) {
-        Retcode = other.Retcode;
-      }
-      if (other.YourRole != 0) {
-        YourRole = other.YourRole;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            lslist_.AddEntriesFrom(input, _repeated_lslist_codec);
-            break;
-          }
-          case 16: {
-            retcode_ = (global::DDRCommProto.rspRemoteLogin.Types.eRemoteLoginRetCode) input.ReadEnum();
-            break;
-          }
-          case 24: {
-            yourRole_ = (global::DDRCommProto.eCltType) input.ReadEnum();
-            break;
-          }
-        }
-      }
-    }
-
-    #region Nested types
-    /// <summary>Container for nested types declared in the rspRemoteLogin message type.</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static partial class Types {
-      public enum eRemoteLoginRetCode {
-        [pbr::OriginalName("success")] Success = 0,
-        [pbr::OriginalName("server_busy")] ServerBusy = 1,
-        [pbr::OriginalName("server_limit_reached")] ServerLimitReached = 2,
-        [pbr::OriginalName("incorrect_password")] IncorrectPassword = 3,
-      }
-
-      public sealed partial class LSEntity : pb::IMessage<LSEntity> {
-        private static readonly pb::MessageParser<LSEntity> _parser = new pb::MessageParser<LSEntity>(() => new LSEntity());
-        private pb::UnknownFieldSet _unknownFields;
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public static pb::MessageParser<LSEntity> Parser { get { return _parser; } }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public static pbr::MessageDescriptor Descriptor {
-          get { return global::DDRCommProto.rspRemoteLogin.Descriptor.NestedTypes[0]; }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        pbr::MessageDescriptor pb::IMessage.Descriptor {
-          get { return Descriptor; }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public LSEntity() {
-          OnConstruction();
-        }
-
-        partial void OnConstruction();
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public LSEntity(LSEntity other) : this() {
-          udid_ = other.udid_;
-          name_ = other.name_;
-          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public LSEntity Clone() {
-          return new LSEntity(this);
-        }
-
-        /// <summary>Field number for the "udid" field.</summary>
-        public const int UdidFieldNumber = 1;
-        private string udid_ = "";
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public string Udid {
-          get { return udid_; }
-          set {
-            udid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-          }
-        }
-
-        /// <summary>Field number for the "name" field.</summary>
-        public const int NameFieldNumber = 2;
-        private string name_ = "";
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public string Name {
-          get { return name_; }
-          set {
-            name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-          }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public override bool Equals(object other) {
-          return Equals(other as LSEntity);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public bool Equals(LSEntity other) {
-          if (ReferenceEquals(other, null)) {
-            return false;
-          }
-          if (ReferenceEquals(other, this)) {
-            return true;
-          }
-          if (Udid != other.Udid) return false;
-          if (Name != other.Name) return false;
-          return Equals(_unknownFields, other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public override int GetHashCode() {
-          int hash = 1;
-          if (Udid.Length != 0) hash ^= Udid.GetHashCode();
-          if (Name.Length != 0) hash ^= Name.GetHashCode();
-          if (_unknownFields != null) {
-            hash ^= _unknownFields.GetHashCode();
-          }
-          return hash;
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public override string ToString() {
-          return pb::JsonFormatter.ToDiagnosticString(this);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public void WriteTo(pb::CodedOutputStream output) {
-          if (Udid.Length != 0) {
-            output.WriteRawTag(10);
-            output.WriteString(Udid);
-          }
-          if (Name.Length != 0) {
-            output.WriteRawTag(18);
-            output.WriteString(Name);
-          }
-          if (_unknownFields != null) {
-            _unknownFields.WriteTo(output);
-          }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public int CalculateSize() {
-          int size = 0;
-          if (Udid.Length != 0) {
-            size += 1 + pb::CodedOutputStream.ComputeStringSize(Udid);
-          }
-          if (Name.Length != 0) {
-            size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
-          }
-          if (_unknownFields != null) {
-            size += _unknownFields.CalculateSize();
-          }
-          return size;
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public void MergeFrom(LSEntity other) {
-          if (other == null) {
-            return;
-          }
-          if (other.Udid.Length != 0) {
-            Udid = other.Udid;
-          }
-          if (other.Name.Length != 0) {
-            Name = other.Name;
-          }
-          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public void MergeFrom(pb::CodedInputStream input) {
-          uint tag;
-          while ((tag = input.ReadTag()) != 0) {
-            switch(tag) {
-              default:
-                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                break;
-              case 10: {
-                Udid = input.ReadString();
-                break;
-              }
-              case 18: {
-                Name = input.ReadString();
-                break;
-              }
-            }
-          }
-        }
-
-      }
-
-    }
-    #endregion
-
-  }
-
-  /// <summary>
-  ///remote client select a local server (a robot) to control or watch
-  /// </summary>
-  public sealed partial class reqSelectLS : pb::IMessage<reqSelectLS> {
-    private static readonly pb::MessageParser<reqSelectLS> _parser = new pb::MessageParser<reqSelectLS>(() => new reqSelectLS());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<reqSelectLS> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[8]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public reqSelectLS() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public reqSelectLS(reqSelectLS other) : this() {
-      udid_ = other.udid_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public reqSelectLS Clone() {
-      return new reqSelectLS(this);
-    }
-
-    /// <summary>Field number for the "udid" field.</summary>
-    public const int UdidFieldNumber = 1;
-    private string udid_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Udid {
-      get { return udid_; }
-      set {
-        udid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as reqSelectLS);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(reqSelectLS other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Udid != other.Udid) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Udid.Length != 0) hash ^= Udid.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Udid.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Udid);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Udid.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Udid);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(reqSelectLS other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Udid.Length != 0) {
-        Udid = other.Udid;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Udid = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class rspSelectLS : pb::IMessage<rspSelectLS> {
-    private static readonly pb::MessageParser<rspSelectLS> _parser = new pb::MessageParser<rspSelectLS>(() => new rspSelectLS());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<rspSelectLS> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[9]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public rspSelectLS() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public rspSelectLS(rspSelectLS other) : this() {
-      error_ = other.error_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public rspSelectLS Clone() {
-      return new rspSelectLS(this);
-    }
-
-    /// <summary>Field number for the "error" field.</summary>
-    public const int ErrorFieldNumber = 1;
-    private string error_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Error {
-      get { return error_; }
-      set {
-        error_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as rspSelectLS);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(rspSelectLS other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Error != other.Error) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Error.Length != 0) hash ^= Error.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Error.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Error);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Error.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Error);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(rspSelectLS other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Error.Length != 0) {
-        Error = other.Error;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Error = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class reqUnselectLS : pb::IMessage<reqUnselectLS> {
-    private static readonly pb::MessageParser<reqUnselectLS> _parser = new pb::MessageParser<reqUnselectLS>(() => new reqUnselectLS());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<reqUnselectLS> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[10]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public reqUnselectLS() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public reqUnselectLS(reqUnselectLS other) : this() {
-      udid_ = other.udid_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public reqUnselectLS Clone() {
-      return new reqUnselectLS(this);
-    }
-
-    /// <summary>Field number for the "udid" field.</summary>
-    public const int UdidFieldNumber = 1;
-    private string udid_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Udid {
-      get { return udid_; }
-      set {
-        udid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as reqUnselectLS);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(reqUnselectLS other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Udid != other.Udid) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Udid.Length != 0) hash ^= Udid.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Udid.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Udid);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Udid.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Udid);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(reqUnselectLS other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Udid.Length != 0) {
-        Udid = other.Udid;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Udid = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class rspUnselectLS : pb::IMessage<rspUnselectLS> {
-    private static readonly pb::MessageParser<rspUnselectLS> _parser = new pb::MessageParser<rspUnselectLS>(() => new rspUnselectLS());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<rspUnselectLS> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[11]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public rspUnselectLS() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public rspUnselectLS(rspUnselectLS other) : this() {
-      error_ = other.error_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public rspUnselectLS Clone() {
-      return new rspUnselectLS(this);
-    }
-
-    /// <summary>Field number for the "error" field.</summary>
-    public const int ErrorFieldNumber = 1;
-    private string error_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Error {
-      get { return error_; }
-      set {
-        error_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as rspUnselectLS);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(rspUnselectLS other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Error != other.Error) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Error.Length != 0) hash ^= Error.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Error.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Error);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Error.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Error);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(rspUnselectLS other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Error.Length != 0) {
-        Error = other.Error;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            Error = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  /// <summary>
-  ///-----------------------------------------------------------------------------------------------------------------Remote Server]]]]]]]]]]]]]]]]]]]]]]]]]]]
-  /// </summary>
   public sealed partial class bcLSAddr : pb::IMessage<bcLSAddr> {
     private static readonly pb::MessageParser<bcLSAddr> _parser = new pb::MessageParser<bcLSAddr>(() => new bcLSAddr());
     private pb::UnknownFieldSet _unknownFields;
@@ -2886,7 +1044,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[12]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3270,7 +1428,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[13]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3462,7 +1620,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[14]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3481,6 +1639,7 @@ namespace DDRCommProto {
     public rspLogin(rspLogin other) : this() {
       retcode_ = other.retcode_;
       yourRole_ = other.yourRole_;
+      priority_ = other.priority_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3511,6 +1670,17 @@ namespace DDRCommProto {
       }
     }
 
+    /// <summary>Field number for the "priority" field.</summary>
+    public const int PriorityFieldNumber = 3;
+    private int priority_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int Priority {
+      get { return priority_; }
+      set {
+        priority_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as rspLogin);
@@ -3526,6 +1696,7 @@ namespace DDRCommProto {
       }
       if (Retcode != other.Retcode) return false;
       if (YourRole != other.YourRole) return false;
+      if (Priority != other.Priority) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3534,6 +1705,7 @@ namespace DDRCommProto {
       int hash = 1;
       if (Retcode != 0) hash ^= Retcode.GetHashCode();
       if (YourRole != 0) hash ^= YourRole.GetHashCode();
+      if (Priority != 0) hash ^= Priority.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3555,6 +1727,10 @@ namespace DDRCommProto {
         output.WriteRawTag(16);
         output.WriteEnum((int) YourRole);
       }
+      if (Priority != 0) {
+        output.WriteRawTag(24);
+        output.WriteInt32(Priority);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3568,6 +1744,9 @@ namespace DDRCommProto {
       }
       if (YourRole != 0) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) YourRole);
+      }
+      if (Priority != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Priority);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -3586,6 +1765,9 @@ namespace DDRCommProto {
       if (other.YourRole != 0) {
         YourRole = other.YourRole;
       }
+      if (other.Priority != 0) {
+        Priority = other.Priority;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -3603,6 +1785,10 @@ namespace DDRCommProto {
           }
           case 16: {
             yourRole_ = (global::DDRCommProto.eCltType) input.ReadEnum();
+            break;
+          }
+          case 24: {
+            Priority = input.ReadInt32();
             break;
           }
         }
@@ -3636,7 +1822,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[15]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3799,7 +1985,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[16]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3931,7 +2117,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[17]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4063,7 +2249,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[18]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4195,7 +2381,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[19]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4327,7 +2513,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[20]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4456,7 +2642,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[21]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4619,7 +2805,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[22]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4813,7 +2999,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[23]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5061,7 +3247,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[24]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5193,7 +3379,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[25]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5356,7 +3542,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[26]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5519,7 +3705,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[27]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5648,7 +3834,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[28]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5804,7 +3990,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[29]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[19]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6029,7 +4215,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[30]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6161,7 +4347,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[31]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6334,7 +4520,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[32]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6466,7 +4652,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[33]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[23]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6641,7 +4827,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[34]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[24]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6814,7 +5000,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[35]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[25]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6971,7 +5157,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[36]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[26]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7131,7 +5317,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[37]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[27]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7260,7 +5446,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[38]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[28]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7448,7 +5634,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[39]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[29]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7608,7 +5794,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[40]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[30]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7740,7 +5926,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[41]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[31]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7869,7 +6055,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[42]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[32]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8018,7 +6204,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[43]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[33]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8172,7 +6358,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[44]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[34]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8948,7 +7134,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[45]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[35]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9133,7 +7319,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[46]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[36]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9314,7 +7500,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[47]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[37]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9486,7 +7672,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[48]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[38]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9723,7 +7909,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[49]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[39]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -10020,7 +8206,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[50]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[40]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -10134,733 +8320,6 @@ namespace DDRCommProto {
   }
 
   /// <summary>
-  /// flowDirection = LS2LSM
-  /// eSrcCondition = NoCond; forwardType = NoForwarding; eSrcRecType = NoRec;
-  /// </summary>
-  public sealed partial class chkFileStatus : pb::IMessage<chkFileStatus> {
-    private static readonly pb::MessageParser<chkFileStatus> _parser = new pb::MessageParser<chkFileStatus>(() => new chkFileStatus());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<chkFileStatus> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[51]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public chkFileStatus() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public chkFileStatus(chkFileStatus other) : this() {
-      fileType_ = other.fileType_;
-      filefmt_ = other.filefmt_.Clone();
-      existfiles_ = other.existfiles_.Clone();
-      tarServiceType_ = other.tarServiceType_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public chkFileStatus Clone() {
-      return new chkFileStatus(this);
-    }
-
-    /// <summary>Field number for the "fileType" field.</summary>
-    public const int FileTypeFieldNumber = 1;
-    private global::DDRCommProto.eFileTypes fileType_ = 0;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::DDRCommProto.eFileTypes FileType {
-      get { return fileType_; }
-      set {
-        fileType_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "filefmt" field.</summary>
-    public const int FilefmtFieldNumber = 2;
-    private static readonly pb::FieldCodec<pb::ByteString> _repeated_filefmt_codec
-        = pb::FieldCodec.ForBytes(18);
-    private readonly pbc::RepeatedField<pb::ByteString> filefmt_ = new pbc::RepeatedField<pb::ByteString>();
-    /// <summary>
-    /// wildcards fmt
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<pb::ByteString> Filefmt {
-      get { return filefmt_; }
-    }
-
-    /// <summary>Field number for the "existfiles" field.</summary>
-    public const int ExistfilesFieldNumber = 3;
-    private static readonly pb::FieldCodec<pb::ByteString> _repeated_existfiles_codec
-        = pb::FieldCodec.ForBytes(26);
-    private readonly pbc::RepeatedField<pb::ByteString> existfiles_ = new pbc::RepeatedField<pb::ByteString>();
-    /// <summary>
-    /// relavtive path
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<pb::ByteString> Existfiles {
-      get { return existfiles_; }
-    }
-
-    /// <summary>Field number for the "tarServiceType" field.</summary>
-    public const int TarServiceTypeFieldNumber = 4;
-    private global::DDRCommProto.eCltType tarServiceType_ = 0;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::DDRCommProto.eCltType TarServiceType {
-      get { return tarServiceType_; }
-      set {
-        tarServiceType_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as chkFileStatus);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(chkFileStatus other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (FileType != other.FileType) return false;
-      if(!filefmt_.Equals(other.filefmt_)) return false;
-      if(!existfiles_.Equals(other.existfiles_)) return false;
-      if (TarServiceType != other.TarServiceType) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (FileType != 0) hash ^= FileType.GetHashCode();
-      hash ^= filefmt_.GetHashCode();
-      hash ^= existfiles_.GetHashCode();
-      if (TarServiceType != 0) hash ^= TarServiceType.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (FileType != 0) {
-        output.WriteRawTag(8);
-        output.WriteEnum((int) FileType);
-      }
-      filefmt_.WriteTo(output, _repeated_filefmt_codec);
-      existfiles_.WriteTo(output, _repeated_existfiles_codec);
-      if (TarServiceType != 0) {
-        output.WriteRawTag(32);
-        output.WriteEnum((int) TarServiceType);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (FileType != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) FileType);
-      }
-      size += filefmt_.CalculateSize(_repeated_filefmt_codec);
-      size += existfiles_.CalculateSize(_repeated_existfiles_codec);
-      if (TarServiceType != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) TarServiceType);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(chkFileStatus other) {
-      if (other == null) {
-        return;
-      }
-      if (other.FileType != 0) {
-        FileType = other.FileType;
-      }
-      filefmt_.Add(other.filefmt_);
-      existfiles_.Add(other.existfiles_);
-      if (other.TarServiceType != 0) {
-        TarServiceType = other.TarServiceType;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 8: {
-            fileType_ = (global::DDRCommProto.eFileTypes) input.ReadEnum();
-            break;
-          }
-          case 18: {
-            filefmt_.AddEntriesFrom(input, _repeated_filefmt_codec);
-            break;
-          }
-          case 26: {
-            existfiles_.AddEntriesFrom(input, _repeated_existfiles_codec);
-            break;
-          }
-          case 32: {
-            tarServiceType_ = (global::DDRCommProto.eCltType) input.ReadEnum();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  /// <summary>
-  /// flowDirection = LSM2LS
-  /// eSrcCondition = NoCond; forwardType = NoForwarding; eSrcRecType = NoRec;
-  /// </summary>
-  public sealed partial class ansFileStatus : pb::IMessage<ansFileStatus> {
-    private static readonly pb::MessageParser<ansFileStatus> _parser = new pb::MessageParser<ansFileStatus>(() => new ansFileStatus());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ansFileStatus> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[52]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ansFileStatus() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ansFileStatus(ansFileStatus other) : this() {
-      fileType_ = other.fileType_;
-      fileAddrList_ = other.fileAddrList_.Clone();
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ansFileStatus Clone() {
-      return new ansFileStatus(this);
-    }
-
-    /// <summary>Field number for the "fileType" field.</summary>
-    public const int FileTypeFieldNumber = 1;
-    private global::DDRCommProto.eFileTypes fileType_ = 0;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::DDRCommProto.eFileTypes FileType {
-      get { return fileType_; }
-      set {
-        fileType_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "fileAddrList" field.</summary>
-    public const int FileAddrListFieldNumber = 2;
-    private static readonly pb::FieldCodec<pb::ByteString> _repeated_fileAddrList_codec
-        = pb::FieldCodec.ForBytes(18);
-    private readonly pbc::RepeatedField<pb::ByteString> fileAddrList_ = new pbc::RepeatedField<pb::ByteString>();
-    /// <summary>
-    /// no wildcards
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<pb::ByteString> FileAddrList {
-      get { return fileAddrList_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as ansFileStatus);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(ansFileStatus other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (FileType != other.FileType) return false;
-      if(!fileAddrList_.Equals(other.fileAddrList_)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (FileType != 0) hash ^= FileType.GetHashCode();
-      hash ^= fileAddrList_.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (FileType != 0) {
-        output.WriteRawTag(8);
-        output.WriteEnum((int) FileType);
-      }
-      fileAddrList_.WriteTo(output, _repeated_fileAddrList_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (FileType != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) FileType);
-      }
-      size += fileAddrList_.CalculateSize(_repeated_fileAddrList_codec);
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(ansFileStatus other) {
-      if (other == null) {
-        return;
-      }
-      if (other.FileType != 0) {
-        FileType = other.FileType;
-      }
-      fileAddrList_.Add(other.fileAddrList_);
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 8: {
-            fileType_ = (global::DDRCommProto.eFileTypes) input.ReadEnum();
-            break;
-          }
-          case 18: {
-            fileAddrList_.AddEntriesFrom(input, _repeated_fileAddrList_codec);
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  /// <summary>
-  ///remote server notify localserver --> localhttpserver to upload files
-  /// </summary>
-  public sealed partial class notifyUploadFile : pb::IMessage<notifyUploadFile> {
-    private static readonly pb::MessageParser<notifyUploadFile> _parser = new pb::MessageParser<notifyUploadFile>(() => new notifyUploadFile());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<notifyUploadFile> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[53]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public notifyUploadFile() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public notifyUploadFile(notifyUploadFile other) : this() {
-      httpAddr_ = other.httpAddr_;
-      filefmt_ = other.filefmt_.Clone();
-      existfiles_ = other.existfiles_.Clone();
-      tarServiceType_ = other.tarServiceType_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public notifyUploadFile Clone() {
-      return new notifyUploadFile(this);
-    }
-
-    /// <summary>Field number for the "httpAddr" field.</summary>
-    public const int HttpAddrFieldNumber = 1;
-    private string httpAddr_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string HttpAddr {
-      get { return httpAddr_; }
-      set {
-        httpAddr_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "filefmt" field.</summary>
-    public const int FilefmtFieldNumber = 2;
-    private static readonly pb::FieldCodec<pb::ByteString> _repeated_filefmt_codec
-        = pb::FieldCodec.ForBytes(18);
-    private readonly pbc::RepeatedField<pb::ByteString> filefmt_ = new pbc::RepeatedField<pb::ByteString>();
-    /// <summary>
-    /// wildcards fmt
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<pb::ByteString> Filefmt {
-      get { return filefmt_; }
-    }
-
-    /// <summary>Field number for the "existfiles" field.</summary>
-    public const int ExistfilesFieldNumber = 3;
-    private static readonly pb::FieldCodec<pb::ByteString> _repeated_existfiles_codec
-        = pb::FieldCodec.ForBytes(26);
-    private readonly pbc::RepeatedField<pb::ByteString> existfiles_ = new pbc::RepeatedField<pb::ByteString>();
-    /// <summary>
-    /// relavtive path
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<pb::ByteString> Existfiles {
-      get { return existfiles_; }
-    }
-
-    /// <summary>Field number for the "tarServiceType" field.</summary>
-    public const int TarServiceTypeFieldNumber = 4;
-    private global::DDRCommProto.eCltType tarServiceType_ = 0;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::DDRCommProto.eCltType TarServiceType {
-      get { return tarServiceType_; }
-      set {
-        tarServiceType_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as notifyUploadFile);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(notifyUploadFile other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (HttpAddr != other.HttpAddr) return false;
-      if(!filefmt_.Equals(other.filefmt_)) return false;
-      if(!existfiles_.Equals(other.existfiles_)) return false;
-      if (TarServiceType != other.TarServiceType) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (HttpAddr.Length != 0) hash ^= HttpAddr.GetHashCode();
-      hash ^= filefmt_.GetHashCode();
-      hash ^= existfiles_.GetHashCode();
-      if (TarServiceType != 0) hash ^= TarServiceType.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (HttpAddr.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(HttpAddr);
-      }
-      filefmt_.WriteTo(output, _repeated_filefmt_codec);
-      existfiles_.WriteTo(output, _repeated_existfiles_codec);
-      if (TarServiceType != 0) {
-        output.WriteRawTag(32);
-        output.WriteEnum((int) TarServiceType);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (HttpAddr.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(HttpAddr);
-      }
-      size += filefmt_.CalculateSize(_repeated_filefmt_codec);
-      size += existfiles_.CalculateSize(_repeated_existfiles_codec);
-      if (TarServiceType != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) TarServiceType);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(notifyUploadFile other) {
-      if (other == null) {
-        return;
-      }
-      if (other.HttpAddr.Length != 0) {
-        HttpAddr = other.HttpAddr;
-      }
-      filefmt_.Add(other.filefmt_);
-      existfiles_.Add(other.existfiles_);
-      if (other.TarServiceType != 0) {
-        TarServiceType = other.TarServiceType;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            HttpAddr = input.ReadString();
-            break;
-          }
-          case 18: {
-            filefmt_.AddEntriesFrom(input, _repeated_filefmt_codec);
-            break;
-          }
-          case 26: {
-            existfiles_.AddEntriesFrom(input, _repeated_existfiles_codec);
-            break;
-          }
-          case 32: {
-            tarServiceType_ = (global::DDRCommProto.eCltType) input.ReadEnum();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  /// <summary>
-  ///local server notify remote server
-  /// </summary>
-  public sealed partial class notifyUploadFileProgress : pb::IMessage<notifyUploadFileProgress> {
-    private static readonly pb::MessageParser<notifyUploadFileProgress> _parser = new pb::MessageParser<notifyUploadFileProgress>(() => new notifyUploadFileProgress());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<notifyUploadFileProgress> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[54]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public notifyUploadFileProgress() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public notifyUploadFileProgress(notifyUploadFileProgress other) : this() {
-      progress_ = other.progress_;
-      uploadedfiles_ = other.uploadedfiles_.Clone();
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public notifyUploadFileProgress Clone() {
-      return new notifyUploadFileProgress(this);
-    }
-
-    /// <summary>Field number for the "progress" field.</summary>
-    public const int ProgressFieldNumber = 1;
-    private float progress_;
-    /// <summary>
-    ///0-1 ,1 is upload finish
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public float Progress {
-      get { return progress_; }
-      set {
-        progress_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "uploadedfiles" field.</summary>
-    public const int UploadedfilesFieldNumber = 2;
-    private static readonly pb::FieldCodec<pb::ByteString> _repeated_uploadedfiles_codec
-        = pb::FieldCodec.ForBytes(18);
-    private readonly pbc::RepeatedField<pb::ByteString> uploadedfiles_ = new pbc::RepeatedField<pb::ByteString>();
-    /// <summary>
-    /// relavtive path
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<pb::ByteString> Uploadedfiles {
-      get { return uploadedfiles_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as notifyUploadFileProgress);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(notifyUploadFileProgress other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Progress, other.Progress)) return false;
-      if(!uploadedfiles_.Equals(other.uploadedfiles_)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Progress != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Progress);
-      hash ^= uploadedfiles_.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Progress != 0F) {
-        output.WriteRawTag(13);
-        output.WriteFloat(Progress);
-      }
-      uploadedfiles_.WriteTo(output, _repeated_uploadedfiles_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Progress != 0F) {
-        size += 1 + 4;
-      }
-      size += uploadedfiles_.CalculateSize(_repeated_uploadedfiles_codec);
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(notifyUploadFileProgress other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Progress != 0F) {
-        Progress = other.Progress;
-      }
-      uploadedfiles_.Add(other.uploadedfiles_);
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 13: {
-            Progress = input.ReadFloat();
-            break;
-          }
-          case 18: {
-            uploadedfiles_.AddEntriesFrom(input, _repeated_uploadedfiles_codec);
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  /// <summary>
   /// flowDirection = LSM2LS or LS2C or RR2RS or RS2M
   /// eSrcCondition = NoCond; forwardType = CltMonAll; eSrcRecType = NoRec;
   /// </summary>
@@ -10872,7 +8331,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[55]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[41]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11005,7 +8464,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[56]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[42]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11134,7 +8593,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[57]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[43]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11263,7 +8722,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[58]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[44]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11396,7 +8855,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[59]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[45]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11528,7 +8987,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[60]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[46]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11785,6 +9244,9 @@ namespace DDRCommProto {
 
   }
 
+  /// <summary>
+  ///local client to local server   or    remote client to remote server
+  /// </summary>
   public sealed partial class reqStreamAddr : pb::IMessage<reqStreamAddr> {
     private static readonly pb::MessageParser<reqStreamAddr> _parser = new pb::MessageParser<reqStreamAddr>(() => new reqStreamAddr());
     private pb::UnknownFieldSet _unknownFields;
@@ -11793,7 +9255,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[61]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[47]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11922,7 +9384,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[62]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[48]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12071,7 +9533,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[63]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[49]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12245,7 +9707,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[64]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[50]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12402,7 +9864,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[65]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[51]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12551,7 +10013,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[66]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[52]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12728,9 +10190,6 @@ namespace DDRCommProto {
 
   }
 
-  /// <summary>
-  ///local client req file
-  /// </summary>
   public sealed partial class reqFileAddress : pb::IMessage<reqFileAddress> {
     private static readonly pb::MessageParser<reqFileAddress> _parser = new pb::MessageParser<reqFileAddress>(() => new reqFileAddress());
     private pb::UnknownFieldSet _unknownFields;
@@ -12739,7 +10198,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[67]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[53]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12923,7 +10382,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[68]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[54]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13124,397 +10583,6 @@ namespace DDRCommProto {
   }
 
   /// <summary>
-  ///remote client reqfile
-  /// </summary>
-  public sealed partial class reqRemoteFileAddress : pb::IMessage<reqRemoteFileAddress> {
-    private static readonly pb::MessageParser<reqRemoteFileAddress> _parser = new pb::MessageParser<reqRemoteFileAddress>(() => new reqRemoteFileAddress());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<reqRemoteFileAddress> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[69]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public reqRemoteFileAddress() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public reqRemoteFileAddress(reqRemoteFileAddress other) : this() {
-      tarServiceType_ = other.tarServiceType_;
-      fileType_ = other.fileType_;
-      fileNames_ = other.fileNames_.Clone();
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public reqRemoteFileAddress Clone() {
-      return new reqRemoteFileAddress(this);
-    }
-
-    /// <summary>Field number for the "tarServiceType" field.</summary>
-    public const int TarServiceTypeFieldNumber = 1;
-    private global::DDRCommProto.eCltType tarServiceType_ = 0;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::DDRCommProto.eCltType TarServiceType {
-      get { return tarServiceType_; }
-      set {
-        tarServiceType_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "fileType" field.</summary>
-    public const int FileTypeFieldNumber = 2;
-    private global::DDRCommProto.eFileTypes fileType_ = 0;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::DDRCommProto.eFileTypes FileType {
-      get { return fileType_; }
-      set {
-        fileType_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "fileNames" field.</summary>
-    public const int FileNamesFieldNumber = 3;
-    private static readonly pb::FieldCodec<pb::ByteString> _repeated_fileNames_codec
-        = pb::FieldCodec.ForBytes(26);
-    private readonly pbc::RepeatedField<pb::ByteString> fileNames_ = new pbc::RepeatedField<pb::ByteString>();
-    /// <summary>
-    /// allow wildcards (*,?, etc)
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<pb::ByteString> FileNames {
-      get { return fileNames_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as reqRemoteFileAddress);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(reqRemoteFileAddress other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (TarServiceType != other.TarServiceType) return false;
-      if (FileType != other.FileType) return false;
-      if(!fileNames_.Equals(other.fileNames_)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (TarServiceType != 0) hash ^= TarServiceType.GetHashCode();
-      if (FileType != 0) hash ^= FileType.GetHashCode();
-      hash ^= fileNames_.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (TarServiceType != 0) {
-        output.WriteRawTag(8);
-        output.WriteEnum((int) TarServiceType);
-      }
-      if (FileType != 0) {
-        output.WriteRawTag(16);
-        output.WriteEnum((int) FileType);
-      }
-      fileNames_.WriteTo(output, _repeated_fileNames_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (TarServiceType != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) TarServiceType);
-      }
-      if (FileType != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) FileType);
-      }
-      size += fileNames_.CalculateSize(_repeated_fileNames_codec);
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(reqRemoteFileAddress other) {
-      if (other == null) {
-        return;
-      }
-      if (other.TarServiceType != 0) {
-        TarServiceType = other.TarServiceType;
-      }
-      if (other.FileType != 0) {
-        FileType = other.FileType;
-      }
-      fileNames_.Add(other.fileNames_);
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 8: {
-            tarServiceType_ = (global::DDRCommProto.eCltType) input.ReadEnum();
-            break;
-          }
-          case 16: {
-            fileType_ = (global::DDRCommProto.eFileTypes) input.ReadEnum();
-            break;
-          }
-          case 26: {
-            fileNames_.AddEntriesFrom(input, _repeated_fileNames_codec);
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  public sealed partial class rspRemoteFileAddress : pb::IMessage<rspRemoteFileAddress> {
-    private static readonly pb::MessageParser<rspRemoteFileAddress> _parser = new pb::MessageParser<rspRemoteFileAddress>(() => new rspRemoteFileAddress());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<rspRemoteFileAddress> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[70]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public rspRemoteFileAddress() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public rspRemoteFileAddress(rspRemoteFileAddress other) : this() {
-      tarServiceType_ = other.tarServiceType_;
-      fileType_ = other.fileType_;
-      fileAddrList_ = other.fileAddrList_.Clone();
-      error_ = other.error_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public rspRemoteFileAddress Clone() {
-      return new rspRemoteFileAddress(this);
-    }
-
-    /// <summary>Field number for the "tarServiceType" field.</summary>
-    public const int TarServiceTypeFieldNumber = 1;
-    private global::DDRCommProto.eCltType tarServiceType_ = 0;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::DDRCommProto.eCltType TarServiceType {
-      get { return tarServiceType_; }
-      set {
-        tarServiceType_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "fileType" field.</summary>
-    public const int FileTypeFieldNumber = 2;
-    private global::DDRCommProto.eFileTypes fileType_ = 0;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::DDRCommProto.eFileTypes FileType {
-      get { return fileType_; }
-      set {
-        fileType_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "fileAddrList" field.</summary>
-    public const int FileAddrListFieldNumber = 3;
-    private static readonly pb::FieldCodec<pb::ByteString> _repeated_fileAddrList_codec
-        = pb::FieldCodec.ForBytes(26);
-    private readonly pbc::RepeatedField<pb::ByteString> fileAddrList_ = new pbc::RepeatedField<pb::ByteString>();
-    /// <summary>
-    /// ignored if fileType!=FileContents
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<pb::ByteString> FileAddrList {
-      get { return fileAddrList_; }
-    }
-
-    /// <summary>Field number for the "error" field.</summary>
-    public const int ErrorFieldNumber = 4;
-    private string error_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Error {
-      get { return error_; }
-      set {
-        error_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as rspRemoteFileAddress);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(rspRemoteFileAddress other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (TarServiceType != other.TarServiceType) return false;
-      if (FileType != other.FileType) return false;
-      if(!fileAddrList_.Equals(other.fileAddrList_)) return false;
-      if (Error != other.Error) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (TarServiceType != 0) hash ^= TarServiceType.GetHashCode();
-      if (FileType != 0) hash ^= FileType.GetHashCode();
-      hash ^= fileAddrList_.GetHashCode();
-      if (Error.Length != 0) hash ^= Error.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (TarServiceType != 0) {
-        output.WriteRawTag(8);
-        output.WriteEnum((int) TarServiceType);
-      }
-      if (FileType != 0) {
-        output.WriteRawTag(16);
-        output.WriteEnum((int) FileType);
-      }
-      fileAddrList_.WriteTo(output, _repeated_fileAddrList_codec);
-      if (Error.Length != 0) {
-        output.WriteRawTag(34);
-        output.WriteString(Error);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (TarServiceType != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) TarServiceType);
-      }
-      if (FileType != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) FileType);
-      }
-      size += fileAddrList_.CalculateSize(_repeated_fileAddrList_codec);
-      if (Error.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Error);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(rspRemoteFileAddress other) {
-      if (other == null) {
-        return;
-      }
-      if (other.TarServiceType != 0) {
-        TarServiceType = other.TarServiceType;
-      }
-      if (other.FileType != 0) {
-        FileType = other.FileType;
-      }
-      fileAddrList_.Add(other.fileAddrList_);
-      if (other.Error.Length != 0) {
-        Error = other.Error;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 8: {
-            tarServiceType_ = (global::DDRCommProto.eCltType) input.ReadEnum();
-            break;
-          }
-          case 16: {
-            fileType_ = (global::DDRCommProto.eFileTypes) input.ReadEnum();
-            break;
-          }
-          case 26: {
-            fileAddrList_.AddEntriesFrom(input, _repeated_fileAddrList_codec);
-            break;
-          }
-          case 34: {
-            Error = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  /// <summary>
   ///----------------------------------------------------------------------------------------------------------StreamRelayService[[[[[[
   /// </summary>
   public sealed partial class AVChannelConfig : pb::IMessage<AVChannelConfig> {
@@ -13525,7 +10593,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[71]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[55]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13794,7 +10862,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[72]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[56]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13923,7 +10991,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[73]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[57]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14072,7 +11140,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[74]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[58]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14193,7 +11261,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[75]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[59]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14343,7 +11411,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[76]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[60]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14475,7 +11543,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[77]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[61]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14604,7 +11672,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[78]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[62]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14742,7 +11810,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[79]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[63]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14877,7 +11945,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[80]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[64]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15006,7 +12074,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[81]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[65]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15187,7 +12255,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[82]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[66]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15319,7 +12387,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[83]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[67]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15451,7 +12519,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[84]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[68]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15664,7 +12732,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[85]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[69]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15827,7 +12895,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[86]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[70]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15993,7 +13061,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[87]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[71]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -16122,7 +13190,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[88]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[72]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -16260,7 +13328,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[89]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[73]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -16395,7 +13463,7 @@ namespace DDRCommProto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[90]; }
+      get { return global::DDRCommProto.BaseCmdReflection.Descriptor.MessageTypes[74]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
