@@ -42,6 +42,11 @@ namespace PIDController
             CTE_old = CTE;
 
 
+            if (System.Single.IsNaN(alpha))
+            {
+                alpha = 0;
+            }
+
             return alpha;
         }
     }
