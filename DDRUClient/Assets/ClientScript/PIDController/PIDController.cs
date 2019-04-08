@@ -13,7 +13,14 @@ namespace PIDController
         public float tau_I = 0f;
         public float tau_D = 0f;
 
+
         public float GetSteerFactorFromPIDController(float CTE)
+        {
+            float alpha = tau_P * CTE;
+            return alpha;
+        }
+
+        public float GetSteerFactorFromPIDController_(float CTE)
         {
             //The steering factor
             float alpha = 0f;

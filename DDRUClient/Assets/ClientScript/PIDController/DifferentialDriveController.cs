@@ -18,6 +18,8 @@ public class DifferentialDriveController : MonoBehaviour
     float leftTargetRPM = 0;
     float rightTargetRPM = 0;
 
+    public float rate = 10.0f;
+
 
     public float maxMotorTorque;
 
@@ -52,6 +54,22 @@ public class DifferentialDriveController : MonoBehaviour
         visualWheel.transform.rotation = rotation;
     }
 
+    float GetTorque(float diff)
+    {
+        return maxMotorTorque;
+
+        float threshold = 1f;
+        if(diff > threshold)
+        {
+            return maxMotorTorque;
+        }
+        else if (diff < -threshold)
+        {
+            return -maxMotorTorque;
+        }
+        return 0;
+    }
+
     public void FixedUpdate()
     {
         float leftTorque = 0;
@@ -75,7 +93,7 @@ public class DifferentialDriveController : MonoBehaviour
         {
             curLeftRPM = maxMotorTorque;
         }
-        leftTorque = leftPID.GetSteerFactorFromPIDController(leftTargetRPM - curLeftRPM);
+        leftTorque = GetTorque(leftTargetRPM - curLeftRPM);// leftPID.GetSteerFactorFromPIDController(leftTargetRPM - curLeftRPM) * rate;
 
         float curRightRPM = mRightWheel.rpm;
         rightTargetRPM = mRightMotorTarget;
@@ -87,7 +105,7 @@ public class DifferentialDriveController : MonoBehaviour
         {
             curRightRPM = maxMotorTorque;
         }
-        rightTorque = rightPID.GetSteerFactorFromPIDController(rightTargetRPM - curRightRPM);
+        rightTorque = GetTorque(rightTargetRPM - curRightRPM);// rightPID.GetSteerFactorFromPIDController(rightTargetRPM - curRightRPM) * rate;
 
 
 
@@ -110,18 +128,26 @@ public class DifferentialDriveController : MonoBehaviour
         }
 
 
-        if (leftTorque == 0 && rightTorque == 0)
+        if (Mathf.Abs(leftTorque) <= 1 && Mathf.Abs(rightTorque) <= 1)
         {
             mFrontWheel.brakeTorque = Mathf.Infinity;
 
             mRigid.velocity = Vector3.zero;
             mRigid.angularVelocity = Vector3.zero;
+
+            mLeftWheel.motorTorque = leftTorque;
+            mLeftWheel.brakeTorque = 0;
+
+            mRightWheel.motorTorque = rightTorque;
+            mRightWheel.brakeTorque = 0;
         }
         else
         {
             mFrontWheel.brakeTorque = 0;
 
         }
+
+
 
 
 
